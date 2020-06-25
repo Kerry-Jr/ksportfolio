@@ -1,0 +1,8 @@
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+.particlesBackground {
+z-index: -1 !important;
+}
