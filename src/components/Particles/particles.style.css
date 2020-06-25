@@ -4,5 +4,5 @@ canvas {
 }
 
 .particlesBackground {
-z-index: -1 !important;
+/*z-index: -3 !important;*/
 }
