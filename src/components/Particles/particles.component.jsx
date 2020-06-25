@@ -15,7 +15,7 @@ class NewParticles extends React.Component {
                     opacity: "0.3",
 
                 }}>
-                    <Particles id="tsparticles" canvasClassName='newCanvas' params={{
+                    <Particles id="tsparticles" params={{
                         background: {
                             color: {
                                 value: "#0d47a1"
@@ -23,7 +23,7 @@ class NewParticles extends React.Component {
                         },
                         fpsLimit: 60,
                         interactivity: {
-                            detectsOn: "window",
+                            detectsOn: "canvas",
                             events: {
                                 onClick: {
                                     enable: true,
@@ -31,7 +31,7 @@ class NewParticles extends React.Component {
                                 },
                                 onHover: {
                                     enable: true,
-                                    mode: "bubble"
+                                    mode: "repulse"
                                 },
                                 resize: true
                             },
@@ -47,23 +47,8 @@ class NewParticles extends React.Component {
                                     quantity: 4
                                 },
                                 repulse: {
-                                    distance: 100,
+                                    distance: 200,
                                     duration: 0.4
-                                },
-                                grab: {
-                                    distance: 400,
-                                    links: {
-                                        opacity: 1
-                                    },
-                                    connect: {
-                                        distance: 800,
-                                        links: {
-                                            opacity: 0.5
-                                        },
-                                        radius: 60
-                                    }
-
-
                                 }
                             }
                         },
@@ -100,7 +85,7 @@ class NewParticles extends React.Component {
                                 value: 0.5
                             },
                             shape: {
-                                type: "triangle"
+                                type: "circle"
                             },
                             size: {
                                 random: true,
