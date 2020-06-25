@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route
-  } from "react-router-dom";
-  import { Navbar,Nav,NavDropdown } from 'react-bootstrap'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Navbar, Nav } from 'react-bootstrap';
 
+import './navbar.styles.css'
 
 class MyNavbar extends Component{
 
@@ -15,18 +12,16 @@ class MyNavbar extends Component{
                 <div className="row">
                     <div className="col-md-12">
                         <Router>
-                            <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+                            <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className='mainNav'>
                                 <Navbar.Brand href="#">Kerry Smith</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
-                                    <Nav className="mr-auto">
+                                    <Nav className="ml-auto navi-links">
                                     <Nav.Link href="#">Home</Nav.Link>
                                     <Nav.Link href="#">Projects</Nav.Link>
-                                    <Nav.Link href="#">Experience</Nav.Link>
-                                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                                        <NavDropdown.Item href="#">Contact Me</NavDropdown.Item>
-                                        <NavDropdown.Item href="#">My Github</NavDropdown.Item>
-                                    </NavDropdown>
+                                    <Nav.Link href="#">LinkedIn</Nav.Link>
+                                    <Nav.Link href="#">Github</Nav.Link>
+                                    <Nav.Link href="#">Contact</Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
