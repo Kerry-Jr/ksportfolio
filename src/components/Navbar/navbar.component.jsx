@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap';
 
 import './navbar.styles.css'
 
-class MyNavbar extends Component{
+class Menu extends Component{
 
     render(){
         return(
@@ -32,4 +32,4 @@ class MyNavbar extends Component{
     }
 };
 
-export default MyNavbar;
+export default Menu;

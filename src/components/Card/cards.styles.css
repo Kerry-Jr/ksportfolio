@@ -3,33 +3,18 @@ img{
     width:100%;
 }
 
-.item {
+.item{
     padding-left:5px;
     padding-right:5px;
-    /*height: 350px;*/
-    /*width: 500px;*/
-    /*margin-bottom: 50px;*/
-    /*!*column-count: 4 !important;*!*/
-    /*!*column-width: 20rem;*!*/
-    /*margin-left: 45rem;*/
-    /*display: grid;*/
-    /*column-gap: 40px;*/
-    display: inline-block;
-    height: 500px;
-    width: 300px;
-
-
 }
 .item-card{
     transition:0.5s;
-    /*cursor:pointer;*/
-
+    cursor:pointer;
 }
 .item-card-title{
     font-size:15px;
     transition:1s;
     cursor:pointer;
-
 }
 .item-card-title i{
     font-size:15px;
@@ -51,7 +36,7 @@ img{
 }
 
 .card::before, .card::after {
-    position: center;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -70,18 +55,4 @@ img{
 }
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
-}
-
-.projects {
-
-    z-index: 1;
-}
-
-.card {
-    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-    justify-content: center;
-    position: absolute;
 }
