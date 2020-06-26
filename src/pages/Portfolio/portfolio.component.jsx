@@ -27,16 +27,16 @@ class Portfolio extends Component {
         );
 
         return (
-        <div className='h-100 d-inline-block'>
-            <div className='row'>
-                <div className='col-12'>
-                    <div className='col showProjects'>
+        <div className='container fluid'>
 
-                        {showProjectsArr}
-                    </div>
-                </div>
-                <NewParticles />
+            <div className='container showProjects'>
+                {showProjectsArr}
             </div>
+
+
+
+                <NewParticles />
+
         </div>
 
         )

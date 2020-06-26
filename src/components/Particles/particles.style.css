@@ -10,11 +10,13 @@ canvas {
     height: 100% !important;
     width: 100%;
 
+
 }
 
 
 .particlesBackground {
 position: fixed !important;
+    cursor: arrow;
 
 
 

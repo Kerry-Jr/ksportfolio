@@ -24,7 +24,7 @@ function About() {
 
                 </div>
             </div>
-            {/*<NewParticles />*/}
+            <NewParticles />
         </div>
     )
 }
