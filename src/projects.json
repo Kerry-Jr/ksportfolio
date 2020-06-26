@@ -43,6 +43,15 @@
     "technologies": "Tech used: React, Redux, JWT authentication, Express.js, MongoDB, Node.js, ESLint (AirBnB rules), Semantic UI React, Mongoose, and deployed with Heroku.",
     "liveLink": "https://ucb-bootcamp-project3.herokuapp.com/",
     "repository": "https://github.com/jngo2013/Project03"
+  },
+  {
+    "id": 6,
+    "name": "CRWN clothing Ltd",
+    "image": "https://github.com/Kerry-Jr/eventplannerProject03/raw/master/assets/ss/eventPage.png",
+    "description": "CRWN clothing web application. Sign in / Sign up w/ Google. Browse clothing store by type or all.  Functional shopping cart with stripe payment. Demo comes with a dummy CC number for trial",
+    "technologies": "Tech used: React, Redux, JWT authentication, Firebase, Node.js, ESLint (AirBnB rules), SASS, redux-logger,Stripe payment services, Google OAuth 2, and more, and deployed with Heroku.",
+    "liveLink": "https://react-crwn-clothing-app.herokuapp.com/",
+    "repository": "https://github.com/Kerry-Jr/ecommerce-project"
   }
 ]
 
