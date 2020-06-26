@@ -1,8 +1,24 @@
 canvas {
-    display: block;
-    vertical-align: bottom;
+
+
 }
 
-.particlesBackground {
-/*z-index: -3 !important;*/
+
+.sCanvas {
+
+    top: 0;
+    height: 100% !important;
+    width: 100%;
+
 }
+
+
+.particlesBackground {
+position: fixed !important;
+
+
+
+
+
+}
+

@@ -6,24 +6,23 @@ import './particles.style.css';
 class NewParticles extends React.Component {
     render() {
         return (
-            <div>
-                <div className='particlesBackground' style={{ position: "absolute",
+            <div className='container fluid sCanvas'>
+                <div className='particlesBackground'  style={{ position: "absolute",
                     top: 0,
                     left: 0,
-                    width: "100vw",
-                    height: "100vw",
-                    opacity: "0.3",
-
+                    width: "100%",
+                    height: "100%",
+                    opacity: "0.4"
                 }}>
                     <Particles id="tsparticles" params={{
                         background: {
                             color: {
-                                value: "#0d47a1"
+                                value: "#FFFFFF"
                             }
                         },
                         fpsLimit: 60,
                         interactivity: {
-                            detectsOn: "canvas",
+                            detectsOn: "window",
                             events: {
                                 onClick: {
                                     enable: true,
@@ -31,14 +30,14 @@ class NewParticles extends React.Component {
                                 },
                                 onHover: {
                                     enable: true,
-                                    mode: "repulse"
+                                    mode: "bubble"
                                 },
                                 resize: true
                             },
                             modes: {
                                 bubble: {
                                     distance: 400,
-                                    duration: 2,
+                                    duration: 0,
                                     opacity: 0.8,
                                     size: 40,
                                     speed: 3
@@ -54,13 +53,13 @@ class NewParticles extends React.Component {
                         },
                         particles: {
                             color: {
-                                value: "#ffffff"
+                                value: "#43bfb5"
                             },
                             links: {
-                                color: "#ffffff",
+                                color: "#000000",
                                 distance: 150,
                                 enable: true,
-                                opacity: 0.5,
+                                opacity: 0.9,
                                 width: 1
                             },
                             collisions: {
@@ -82,17 +81,17 @@ class NewParticles extends React.Component {
                                 value: 80
                             },
                             opacity: {
-                                value: 0.5
+                                value: 0.9
                             },
                             shape: {
-                                type: "circle"
+                                type: "triangle"
                             },
                             size: {
                                 random: true,
                                 value: 5
                             }
                         },
-                        detectRetina: true
+                        detectRetina: false
                     }} />
 
                 </div>

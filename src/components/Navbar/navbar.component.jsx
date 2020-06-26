@@ -17,26 +17,13 @@ class MyNavbar extends Component{
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="ml-auto navi-links">
-                                    <Nav.Link href="#">Home</Nav.Link>
-                                    <Nav.Link href="#">Projects</Nav.Link>
-                                    <Nav.Link href="#">LinkedIn</Nav.Link>
-                                    <Nav.Link href="#">Github</Nav.Link>
+                                    <Nav.Link href="/">Home</Nav.Link>
+                                    <Nav.Link href="/portfolio">Projects</Nav.Link>
                                     <Nav.Link href="#">Contact</Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
-                            <br />
-                            <Switch>
-                                <Route exact path="/">
-                                    
-                                </Route>
-                                <Route path="#">
-                                   
-                                </Route>
-                                <Route path="#">
-                                    
-                                </Route>
-                            </Switch>
+                        <br/>
                         </Router>
                     </div>
                 </div>

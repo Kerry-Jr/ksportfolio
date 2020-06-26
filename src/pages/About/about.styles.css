@@ -4,6 +4,7 @@
     /*background-color: black;*/
     border: 2px solid black ;
     margin: auto;
+    z-index: 1;
 }
 
 .kerry {
@@ -11,6 +12,8 @@
     width: 200px;
     background-color: red;
     border: 2px solid black ;
+    position: relative;
+    z-index: 1;
 
 }
 
@@ -31,4 +34,8 @@
     text-transform: uppercase;
     text-indent: 25px;
     border: 2px solid black ;
+}
+
+.text-left {
+    font-family: 'Lobster', cursive;
 }

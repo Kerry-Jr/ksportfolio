@@ -4,8 +4,17 @@ img{
 }
 
 .item{
-    padding-left:5px;
-    padding-right:5px;
+    /*padding-left:5px;*/
+    /*padding-right:5px;*/
+    /*height: 200px;*/
+    /*width: 500px;*/
+    /*margin-bottom: 50px;*/
+    column-count: 4;
+    column-width: 20rem;
+    margin-left: 45rem;
+    display: grid;
+    column-gap: 40px;
+
 }
 .item-card{
     transition:0.5s;
@@ -36,7 +45,7 @@ img{
 }
 
 .card::before, .card::after {
-    position: absolute;
+    position: center;
     top: 0;
     right: 0;
     bottom: 0;
@@ -55,4 +64,16 @@ img{
 }
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
+}
+
+.projects {
+
+    z-index: 1;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
 }

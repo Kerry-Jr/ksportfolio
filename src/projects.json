@@ -1,6 +1,48 @@
 [
   {
     "id": 1,
-    "name": "Kerry"
+    "name": "Password Generator",
+    "image": "https://kerry-jr.github.io/Homework2/Assets/Images/homework03.PNG",
+    "description": "Web application that generates random and unique strings based on user parameters",
+    "technologies":  "Tech used:  HTML, CSS, Vanilla JavaScript",
+    "liveLink": "https://kerry-jr.github.io/Homework-03-PWgen/",
+    "repository":  "https://github.com/Kerry-Jr/Homework-03-PWgen"
+  },
+  {
+    "id": 2,
+    "name": "Weather Dashboard",
+    "image": "https://kerry-jr.github.io/Homework2/Assets/Images/homework06.PNG",
+    "description": "Weather application that reports current and weekly forecasts.",
+    "technologies": "Tech used:  HTML, CSS w/bootstrap, Javascript, Moment.js, jQuery, OpenWeather API",
+    "liveLink": "https://kerry-jr.github.io/Homework06/",
+    "repository": "https://github.com/Kerry-Jr/Homework06"
+  },
+  {
+    "id": 3,
+    "name": "Bart Buddy",
+    "image": "https://github.com/Kerry-Jr/homework11/blob/master/assets/image/bartbuddy.PNG?raw=true",
+    "description": "Bart companion application",
+    "technologies": "Tech used:  HTML, CSS w/bootstrap, JavaScript, jQuery, AJAX, Google maps API.",
+    "liveLink": "https://kerry-jr.github.io/project01bartBuddy/",
+    "repository": "https://github.com/scott-whitney/BARTBuddy"
+  },
+  {
+    "id": 4,
+    "name": "Blog Site",
+    "image": "https://github.com/Kerry-Jr/Project02/raw/master/client/src/assets/images/app.PNG",
+    "description": "Simple and easy blog site ready to go!",
+    "technologies": "Tech used:  HTML, CSS, JavaScript, React, Bootstrap, ESLint (AirBnB rules), Express, mySQL2, Node.js, and deployed with Heroku.",
+    "liveLink": "https://project02blog.herokuapp.com/",
+    "repository": "https://github.com/Kerry-Jr/Project02"
+  },
+  {
+    "id": 5,
+    "name": "Planet.COM",
+    "image": "https://github.com/Kerry-Jr/eventplannerProject03/raw/master/assets/ss/eventPage.png",
+    "description": "Plan and keep track of your events.",
+    "technologies": "Tech used: React, Redux, JWT authentication, Express.js, MongoDB, Node.js, ESLint (AirBnB rules), Semantic UI React, Mongoose, and deployed with Heroku.",
+    "liveLink": "https://ucb-bootcamp-project3.herokuapp.com/",
+    "repository": "https://github.com/jngo2013/Project03"
   }
 ]
+

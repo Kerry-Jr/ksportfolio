@@ -1,0 +1,10 @@
+.list-projects {
+    display: block;
+    z-index: 2;
+
+}
+
+.showProjects {
+
+    z-index: 1;
+}
