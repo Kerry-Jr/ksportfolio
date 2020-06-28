@@ -1,22 +1,37 @@
-img{
-    height:150px;
-    width:100%;
+.card-image-top {
+    height: 50%;
+    width: 100%;
 }
 
-.item{
-    padding-left:5px;
-    padding-right:5px;
+.card-deck {
+    width: 33%;
+   column-count: 3;
+    position: relative;
 }
+
+
+/*.item{*/
+/*    padding-left:5px;*/
+/*    padding-right:5px;*/
+/*}*/
 .item-card{
     transition:0.5s;
     cursor:pointer;
+    height: 33em;
+    width: 33em;
+    /*padding: 50px 25px 50px 100px;*/
 }
-.item-card-title{
-    font-size:15px;
-    transition:1s;
-    cursor:pointer;
+
+div.card.item-card {
+    padding: 50px 50px 50px 50px;
+    z-index: 1;
 }
-.item-card-title i{
+/*.item-card-title{*/
+/*    font-size:15px;*/
+/*    transition:1s;*/
+/*    cursor:pointer;*/
+/*}*/
+.item-card-title {
     font-size:15px;
     transition:1s;
     cursor:pointer;
@@ -56,3 +71,9 @@ img{
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
 }
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+

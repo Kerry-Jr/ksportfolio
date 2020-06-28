@@ -30,7 +30,10 @@ class NewParticles extends React.Component {
                                 },
                                 onHover: {
                                     enable: true,
-                                    mode: "bubble"
+                                    mode: "bubble",
+                                    color: {
+                                        value: "#FF0000"
+                                    }
                                 },
                                 resize: true
                             },
@@ -53,12 +56,12 @@ class NewParticles extends React.Component {
                         },
                         particles: {
                             color: {
-                                value: "#43bfb5"
+                                value: "#FF6347"
                             },
                             links: {
                                 color: "#000000",
                                 distance: 150,
-                                enable: true,
+                                enable: false,
                                 opacity: 0.9,
                                 width: 1
                             },
