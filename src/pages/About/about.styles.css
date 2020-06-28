@@ -1,50 +1,41 @@
-p {
-    font-family: 'Inconsolata', monospace;
-}
-
 .test {
     height: 600px;
     width: 300px;
-    background-color: #c6d2d4;
+    background-color: #3c4f57;
 
     margin: auto;
-    z-index: 1;
+
 }
 
 .kerry {
     height: 500px;
     width: 200px;
-    background-color: #ac9797;
+    background-color: red;
     border: 2px solid black ;
+    position: relative;
 
-    z-index: 1;
 
 }
 
 .myImage {
-    height: 50%;
+    height: 200px;
 
-
+    border: 2px solid black ;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding: 5px 10px 5px 10px;
 
 
 
 }
 
-.hobbies-text, .about-text {
-
+.myBio {
+    text-transform: uppercase;
     text-indent: 25px;
-
+    border: 2px solid black ;
 }
 
-.display-3 {
+.text-left {
     font-family: 'Lobster', cursive;
 }
-
-/*font-family: 'Inconsolata', monospace;*/
-/*font-family: 'Lobster', cursive;*/
-/*font-family: 'Notable', sans-serif;*/

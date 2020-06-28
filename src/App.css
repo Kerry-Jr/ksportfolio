@@ -51,3 +51,10 @@ a {
 a:hover {
   text-decoration: none !important;
 }
+
+.main-app {
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

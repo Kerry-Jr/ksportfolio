@@ -14,13 +14,13 @@ class NewParticles extends React.Component {
                     height: "100%",
                     opacity: "0.9"
                 }}>
-                    <Particles id="tsparticles" params={{
+                    <Particles id="particles-js" params={{
                         background: {
                             color: {
-                                value: "#000000"
+                                value: "#00356B"
                             }
                         },
-                        fpsLimit: 60,
+                        fpsLimit: 144,
                         interactivity: {
                             detectsOn: "window",
                             events: {
@@ -31,7 +31,9 @@ class NewParticles extends React.Component {
                                 onHover: {
                                     enable: true,
                                     mode: "bubble",
-
+                                    color: {
+                                        value: "#FF0000"
+                                    }
                                 },
                                 resize: true
                             },
@@ -57,10 +59,10 @@ class NewParticles extends React.Component {
                                 value: "random"
                             },
                             links: {
-                                color: "#505050",
+                                color: "#000000",
                                 distance: 150,
-                                enable: true,
-                                opacity: 1,
+                                enable: false,
+                                opacity: 0.9,
                                 width: 1
                             },
                             collisions: {
@@ -70,7 +72,7 @@ class NewParticles extends React.Component {
                                 direction: "none",
                                 enable: true,
                                 outMode: "bounce",
-                                random: true,
+                                random: false,
                                 speed: 6,
                                 straight: false
                             },
@@ -82,17 +84,17 @@ class NewParticles extends React.Component {
                                 value: 80
                             },
                             opacity: {
-                                value: 1
+                                value: 0.9
                             },
                             shape: {
-                                type: ["star","edge","polygon","triangle"]
+                                type: "triangle"
                             },
                             size: {
                                 random: true,
-                                value: 25
+                                value: 5
                             }
                         },
-                        detectRetina: true
+                        detectRetina: false
                     }} />
 
                 </div>

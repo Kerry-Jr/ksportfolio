@@ -6,7 +6,7 @@
 .card-deck {
     width: 33%;
    column-count: 3;
-    position: relative;
+    height: 100%;
 }
 
 
@@ -24,7 +24,7 @@
 
 div.card.item-card {
     padding: 50px 50px 50px 50px;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 /*.item-card-title{*/
 /*    font-size:15px;*/

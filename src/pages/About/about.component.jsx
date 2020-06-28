@@ -1,5 +1,5 @@
 import React  from "react";
-import NewParticles from "../../components/Particles/particles.component";
+
 import './about.styles.css';
 
 
@@ -20,7 +20,7 @@ function About() {
 
                 </div>
             </div>
-            <NewParticles />
+
         </div>
     )
 }

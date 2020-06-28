@@ -4,7 +4,7 @@ import projects from '../../projects.json';
 
 
 import './portfolio.styles.css';
-import NewParticles from "../../components/Particles/particles.component";
+
 
 class Portfolio extends Component {
 
@@ -27,11 +27,11 @@ class Portfolio extends Component {
         );
 
         return (
-            <div className='container'>
+            <div>
                 <div className='row'>
                     {showProjectsArr}
                 </div>
-                <NewParticles/>
+
             </div>
 
 

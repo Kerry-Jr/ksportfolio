@@ -6,7 +6,7 @@ import './cards.styles.css';
 function Card (props) {
 
     return (
-        <div className='card-deck'>
+        <div className='container card-deck'>
 
                     <div className='col-md-12'>
                         <div className="card item-card bg-light" key={props.id}>

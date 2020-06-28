@@ -19,7 +19,7 @@ class Menu extends Component{
                                     <Nav className="ml-auto navi-links">
                                     <Nav.Link href="/">Home</Nav.Link>
                                     <Nav.Link href="/portfolio">Projects</Nav.Link>
-                                        <Nav.Link href="/contact">Contact</Nav.Link>
+                                    <Nav.Link href="/contact">Contact</Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
