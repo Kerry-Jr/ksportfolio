@@ -27,7 +27,7 @@ class Portfolio extends Component {
         );
 
         return (
-            <div>
+            <div className='container'>
                 <div className='row'>
                     {showProjectsArr}
                 </div>

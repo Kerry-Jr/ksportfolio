@@ -1,7 +1,11 @@
+p {
+    font-family: 'Inconsolata', monospace;
+}
+
 .test {
     height: 600px;
     width: 300px;
-    background-color: #3c4f57;
+    background-color: #c6d2d4;
 
     margin: auto;
     z-index: 1;
@@ -10,32 +14,37 @@
 .kerry {
     height: 500px;
     width: 200px;
-    background-color: red;
+    background-color: #ac9797;
     border: 2px solid black ;
-    position: relative;
+
     z-index: 1;
 
 }
 
 .myImage {
-    height: 200px;
+    height: 50%;
 
-    border: 2px solid black ;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 5px 10px 5px 10px;
 
 
 
 }
 
-.myBio {
-    text-transform: uppercase;
+.hobbies-text, .about-text {
+
     text-indent: 25px;
-    border: 2px solid black ;
+
 }
 
-.text-left {
+.display-3 {
     font-family: 'Lobster', cursive;
 }
+
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Lobster', cursive;*/
+/*font-family: 'Notable', sans-serif;*/
