@@ -1,24 +1,21 @@
-.test {
-    height: 600px;
-    width: 300px;
+.test, .kerry {
     background-color: #3c4f57;
     font-family: 'Inconsolata', monospace;
     color: ghostwhite;
-    margin: auto;
+    word-wrap: break-word;
 
 }
 
-.kerry {
-    height: 500px;
-    width: 200px;
-    background-color: red;
-    border: 2px solid black ;
-    position: relative;
-    font-family: 'Inconsolata', monospace;
-    color: ghostwhite;
+/*.kerry {*/
+/*    */
+/*    background-color: red;*/
+/*    border: 2px solid black ;*/
+/*    position: relative;*/
+/*    font-family: 'Inconsolata', monospace;*/
+/*    color: ghostwhite;*/
 
 
-}
+/*}*/
 
 .myImage {
     height: 200px;
@@ -43,3 +40,4 @@
 .text-left, .text-right {
     font-family: 'Lobster', cursive;
 }
+

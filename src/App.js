@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import MyNavbar from "./components/Navbar/navbar.component";
 import NewParticles from "./components/Particles/particles.component";
 import Landing from "./pages/Landing/landing.component";
 import About from "./pages/About/about.component";
