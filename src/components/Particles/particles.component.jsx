@@ -17,7 +17,7 @@ class NewParticles extends React.Component {
                     <Particles id="particles-js" params={{
                         background: {
                             color: {
-                                value: "#000000"
+                                value: "0d0d0d"
                             }
                         },
                         fpsLimit: 144,
@@ -30,7 +30,7 @@ class NewParticles extends React.Component {
                                 },
                                 onHover: {
                                     enable: true,
-                                    mode: "bubble",
+                                    mode: "grab",
                                     color: {
                                         value: "#FF0000"
                                     }
@@ -57,12 +57,12 @@ class NewParticles extends React.Component {
                         },
                         particles: {
                             color: {
-                                value: "random"
+                                value: "#FFFFFF"
                             },
                             links: {
                                 color: "random",
                                 distance: 150,
-                                enable: true,
+                                enable: false,
                                 opacity: 0.9,
                                 width: 1
                             },

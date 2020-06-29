@@ -6,9 +6,9 @@ import './cards.styles.css';
 function Card (props) {
 
     return (
-        <div className='container card-deck'>
+        <div className='col-sm-4 md-6 lg-10 offset-1'>
 
-                    <div className='col-md-12'>
+                    <div className='container'>
                         <div className="card item-card bg-light" key={props.id}>
                             <h4 className="card-title text-center">{props.name}</h4>
                             <img src={props.image} className='card-image-top'

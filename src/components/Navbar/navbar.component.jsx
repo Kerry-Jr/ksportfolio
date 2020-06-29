@@ -18,6 +18,7 @@ class Menu extends Component{
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="ml-auto navi-links">
                                     <Nav.Link href="/">Home</Nav.Link>
+                                    <Nav.Link href="/about">About</Nav.Link>
                                     <Nav.Link href="/portfolio">Projects</Nav.Link>
                                     <Nav.Link href="/contact">Contact</Nav.Link>
                                     </Nav>

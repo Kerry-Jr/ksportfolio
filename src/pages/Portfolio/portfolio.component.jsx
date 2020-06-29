@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Card from '../../components/Card/cards.component';
 import projects from '../../projects.json';
-
-
+import MyNavbar from '../../components/Navbar/navbar.component'
 import './portfolio.styles.css';
-
 
 class Portfolio extends Component {
 
@@ -15,30 +13,29 @@ class Portfolio extends Component {
     render() {
         const myProjectsArr = this.state.projects;
         const showProjectsArr = myProjectsArr.map((project) =>
-        <Card
-        key={project.id}
-        name={project.name}
-        image={project.image}
-        description={project.description}
-        liveLink={project.liveLink}
-        repository={project.repository}
-        technologies={project.technologies}
-        />
+            <div className='col-sm-4 md-6 lg-10 offset-1 '>
+                <Card
+                    key={project.id}
+                    name={project.name}
+                    image={project.image}
+                    description={project.description}
+                    liveLink={project.liveLink}
+                    repository={project.repository}
+                    technologies={project.technologies}
+                />
+            </div>
+
         );
 
         return (
-            <div>
+              <div className='container-fluid'>
+                <MyNavbar/>
                 <div className='row'>
-                    {showProjectsArr}
+                  {showProjectsArr}
                 </div>
-
-            </div>
-
-
+              </div>
 
         )
-
     }
 }
-
 export default Portfolio;

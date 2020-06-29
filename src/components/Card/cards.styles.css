@@ -1,12 +1,13 @@
 .card-image-top {
-    height: 50%;
-    width: 100%;
+    height: 15rem;
+    width: 25rem;
 }
 
 .card-deck {
     width: 33%;
    column-count: 3;
     height: 100%;
+
 }
 
 
@@ -22,15 +23,18 @@
     /*padding: 50px 25px 50px 100px;*/
 }
 
-div.card.item-card {
-    padding: 50px 50px 50px 50px;
+div.card.item-card.bg-light {
+width: 25rem;
+    height: 30rem;
+    margin-bottom: 50px;
+
     /*z-index: 1;*/
 }
-/*.item-card-title{*/
-/*    font-size:15px;*/
-/*    transition:1s;*/
-/*    cursor:pointer;*/
-/*}*/
+.item-card-title{
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+}
 .item-card-title {
     font-size:15px;
     transition:1s;
