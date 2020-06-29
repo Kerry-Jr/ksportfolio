@@ -2,7 +2,8 @@
     height: 600px;
     width: 300px;
     background-color: #3c4f57;
-
+    font-family: 'Inconsolata', monospace;
+    color: ghostwhite;
     margin: auto;
 
 }
@@ -13,6 +14,8 @@
     background-color: red;
     border: 2px solid black ;
     position: relative;
+    font-family: 'Inconsolata', monospace;
+    color: ghostwhite;
 
 
 }
@@ -34,8 +37,9 @@
     text-transform: uppercase;
     text-indent: 25px;
     border: 2px solid black ;
+
 }
 
-.text-left {
+.text-left, .text-right {
     font-family: 'Lobster', cursive;
 }

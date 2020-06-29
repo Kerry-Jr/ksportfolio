@@ -17,7 +17,7 @@ class NewParticles extends React.Component {
                     <Particles id="particles-js" params={{
                         background: {
                             color: {
-                                value: "#00356B"
+                                value: "#000000"
                             }
                         },
                         fpsLimit: 144,
@@ -40,13 +40,14 @@ class NewParticles extends React.Component {
                             modes: {
                                 bubble: {
                                     distance: 400,
-                                    duration: 0,
+                                    duration: 2,
                                     opacity: 0.8,
                                     size: 40,
                                     speed: 3
                                 },
                                 push: {
-                                    quantity: 4
+                                    quantity: 4,
+                                    particles_nb: 4
                                 },
                                 repulse: {
                                     distance: 200,
@@ -59,9 +60,9 @@ class NewParticles extends React.Component {
                                 value: "random"
                             },
                             links: {
-                                color: "#000000",
+                                color: "random",
                                 distance: 150,
-                                enable: false,
+                                enable: true,
                                 opacity: 0.9,
                                 width: 1
                             },
@@ -71,9 +72,9 @@ class NewParticles extends React.Component {
                             move: {
                                 direction: "none",
                                 enable: true,
-                                outMode: "bounce",
+                                outMode: "out",
                                 random: false,
-                                speed: 6,
+                                speed: 10,
                                 straight: false
                             },
                             number: {
@@ -87,11 +88,12 @@ class NewParticles extends React.Component {
                                 value: 0.9
                             },
                             shape: {
-                                type: "triangle"
+                                type: "star"
                             },
                             size: {
                                 random: true,
-                                value: 5
+                                value: 5,
+                                // speed: 40
                             }
                         },
                         detectRetina: false
