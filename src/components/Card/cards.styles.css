@@ -1,6 +1,9 @@
 .card-image-top {
     height: 15rem;
     width: 25rem;
+    border-radius: 35px;
+    box-shadow: 10px 5px 5px 0px rgba(0,0,0,0.70)!important;
+
 }
 
 .card-deck {
@@ -27,29 +30,36 @@ div.card.item-card.bg-light {
 width: 25rem;
     height: 30rem;
     margin-bottom: 50px;
+    background-color: #18d4ca !important;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px 0px rgba(0,0,0,0.95)!important;
+    opacity: 0.8;
 
     /*z-index: 1;*/
 }
 .item-card-title{
-    font-size:15px;
+    font-size: 14px !important;
+    color: black !important;
     transition:1s;
     cursor:pointer;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
-.item-card-title {
-    font-size:15px;
-    transition:1s;
-    cursor:pointer;
-    color:#ffa710
-}
+/*.item-card-title {*/
+/*    font-size:15px !important;*/
+/*    transition:1s;*/
+/*    cursor:pointer;*/
+/*    color:#ffa710*/
+/*}*/
 .card-title i:hover{
     transform: scale(1.25) rotate(100deg);
     color:#18d4ca;
 
 }
-.card:hover{
-    transform: scale(1.05);
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-}
+/*.card:hover{*/
+/*    transform: scale(1.05);*/
+/*    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);*/
+/*}*/
 .card-text{
     height:80px;
 }
@@ -77,7 +87,28 @@ width: 25rem;
 }
 
 .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.25);
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
 
+.cText {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 15px;
+}
+
+.card-title {
+    font-family: 'Lobster', cursive;
+}
+
+/*.teleportation {*/
+/*   margin-left: 7rem;*/
+/*    margin-bottom: 2rem;*/
+
+/*}*/
+
+/*.buttons {*/
+/*    border-radius: 7px;*/
+/*    margin-bottom: 10px;*/
+/*    transform: scale(1.25);*/
+/*    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);*/
+/*}*/
