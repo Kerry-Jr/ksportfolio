@@ -49,10 +49,10 @@ margin-top : 500px;
 
 
 .hero-title {
-    font-size: 100px;
+    font-size: 80px;
     font-family: 'Lobster', cursive;
-    margin-bottom: 35px;
-    margin-top: 100px;
+    /*margin-bottom: 35px;*/
+    /*margin-top: 100px;*/
 }
 
 .hero-decoration {
