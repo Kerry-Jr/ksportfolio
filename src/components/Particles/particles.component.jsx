@@ -12,7 +12,7 @@ class NewParticles extends React.Component {
                     left: 0,
                     width: "100%",
                     height: "100%",
-                    opacity: "0.9"
+                    opacity: "1"
                 }}>
                     <Particles id="particles-js" params={{
                         background: {
@@ -62,8 +62,8 @@ class NewParticles extends React.Component {
                             links: {
                                 color: "random",
                                 distance: 150,
-                                enable: false,
-                                opacity: 0.9,
+                                enable: true,
+                                opacity: 0.2,
                                 width: 1
                             },
                             collisions: {
@@ -73,7 +73,7 @@ class NewParticles extends React.Component {
                                 direction: "none",
                                 enable: true,
                                 outMode: "out",
-                                random: false,
+                                random: true,
                                 speed: 10,
                                 straight: false
                             },

@@ -24,7 +24,7 @@ function About() {
             </div>
             <div className='row'>
                 <div className='col-12 text-center mt-5'>
-                        hello
+
                 </div>
             </div>
         </div>

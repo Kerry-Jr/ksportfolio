@@ -6,7 +6,11 @@ import About from "./pages/About/about.component";
 import Portfolio from "./pages/Portfolio/portfolio.component";
 import Contact from './pages/Contact/contact.component';
 
+
 import './App.css';
+
+
+
 
 function App() {
 
@@ -19,7 +23,7 @@ function App() {
                 <Route exact path='/contact' render ={() => <Contact />} />
             </Router>
             <NewParticles
-            className='particles'
+
             />
         </div>
     );
