@@ -14,7 +14,7 @@ function Card (props) {
                             <img src={props.image} className='card-image-top'
                                  alt="..."/>
                             <div className="overlay">
-                                <div className="text"><div className='teleportation'>
+                                <div className="text"><div className='text text-center'>Enjoy</div><div className='teleportation'>
                                     <Link target='_blank' to={props.repository} rel='noopener noreferrer' as='button' className='btn-sm btn-danger buttons'>Github Repo</Link>
                                     <Link target='_blank' to={props.liveLink} rel='noopener noreferrer' as='button' className='btn-sm btn-danger buttons'>Live App</Link>
                                 </div></div>
