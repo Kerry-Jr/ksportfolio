@@ -28,15 +28,29 @@
 
 div.card.item-card.bg-light {
 width: 25rem;
-    height: 30rem;
+    height: 35rem;
     margin-bottom: 50px;
     background-color: #18d4ca !important;
     border-radius: 25px;
     box-shadow: 10px 5px 5px 0px rgba(0,0,0,0.95)!important;
     opacity: 0.8;
 
+    overflow: scroll;
+
+    box-sizing: content-box;
     /*z-index: 1;*/
 }
+
+div.card.item-card.bg-light::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+
+
+
+
 .item-card-title{
     font-size: 14px !important;
     color: black !important;
@@ -94,6 +108,7 @@ width: 25rem;
 .cText {
     font-family: 'Inconsolata', monospace;
     margin-top: 15px;
+
 }
 
 .card-title {

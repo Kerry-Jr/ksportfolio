@@ -48,7 +48,7 @@
     "id": 6,
     "name": "CRWN clothing Ltd",
     "image": "https://github.com/Kerry-Jr/eventplannerProject03/raw/master/assets/ss/eventPage.png",
-    "description": "CRWN clothing web application. Sign in / Sign up w/ Google. Browse clothing store by type or all.  Functional shopping cart with stripe payment. Demo comes with a dummy CC number for trial",
+    "description": "CRWN clothing web app. Signin/Signup w/Google. Functional shopping cart with stripe payment. Demo comes with a dummy CC number for trial",
     "technologies": "Tech used: React, Redux, JWT authentication, Firebase, Node.js, ESLint (AirBnB rules), SASS, redux-logger,Stripe payment services, Google OAuth 2, and more, and deployed with Heroku.",
     "liveLink": "//react-crwn-clothing-app.herokuapp.com/",
     "repository": "//github.com/Kerry-Jr/ecommerce-project"
