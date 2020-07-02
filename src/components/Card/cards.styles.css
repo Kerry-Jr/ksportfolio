@@ -32,13 +32,12 @@ width: 25rem;
     margin-bottom: 50px;
     background-color: #0191ce !important;
     border-radius: 25px;
-    box-shadow: 10px 5px 5px 0px rgba(0,0,0,0.95)!important;
-    opacity: 0.8;
-
+    box-shadow: 10px 5px 5px 1px rgba(0,0,0,0.95)!important;
+    opacity: 0.9;
     overflow: scroll;
-
     box-sizing: content-box;
-    /*z-index: 1;*/
+    position: relative;
+
 }
 
 div.card.item-card.bg-light::-webkit-scrollbar {
@@ -149,6 +148,7 @@ div.card.item-card.bg-light::-webkit-scrollbar {
 
 .buttons {
     background-color: darkmagenta !important;
+    margin-right: 10px !important;
 }
 
 
