@@ -41,7 +41,7 @@ class NewParticles extends React.Component {
                                 bubble: {
                                     distance: 400,
                                     duration: 2,
-                                    opacity: 0.8,
+                                    opacity: 0.6,
                                     size: 40,
                                     speed: 3
                                 },
@@ -52,18 +52,24 @@ class NewParticles extends React.Component {
                                 repulse: {
                                     distance: 200,
                                     duration: 0.4
+                                },
+                                grab: {
+                                    distance: 250,
+                                    line_linked: {
+                                        opacity: 1
+                                    }
                                 }
                             }
                         },
                         particles: {
                             color: {
-                                value: "#FFFFFF"
+                                value: "random"
                             },
                             links: {
                                 color: "random",
                                 distance: 150,
                                 enable: true,
-                                opacity: 0.2,
+                                opacity: 0.8,
                                 width: 1
                             },
                             collisions: {
@@ -88,7 +94,7 @@ class NewParticles extends React.Component {
                                 value: 0.9
                             },
                             shape: {
-                                type: "star"
+                                type: ["star","square","circle","triangle"]
                             },
                             size: {
                                 random: true,
