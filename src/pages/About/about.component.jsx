@@ -15,7 +15,7 @@ function About() {
                         <p className='about-text'>My name is Kerry Smith. I'm a full stack engineer with interests in front-end Javascript libraries and UI/UX design. When we can visualize the data the design develops naturally, with this concept in mind I find my most creative moments are dictated by the data I'm working with.</p>
                     </div>
                     <div className='col kerry'>
-                        <h1 className='display-3 text-right'>Hobbies</h1>
+                        <h1 className='display-3 text-right'>Languages</h1>
                         <p className='hobbies-text'>My name is Kerry Smith. I'm a full stack engineer with interests in front-end Javascript libraries and UI/UX design. When we can visualize your data the design develops naturally, with this concept in mind I find my most creative moments are dictated by the data I'm working with.</p>
                     </div>
 

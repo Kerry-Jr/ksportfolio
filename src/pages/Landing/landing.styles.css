@@ -34,8 +34,8 @@ margin-top : 500px;
 
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.wallpaperscraft.com/image/lines_colorful_pattern_130007_3840x2160.jpg');
-    opacity: 0.7;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://images.wallpaperscraft.com/image/lines_colorful_pattern_130007_3840x2160.jpg');
+    opacity: 0.6;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

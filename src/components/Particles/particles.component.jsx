@@ -12,7 +12,7 @@ class NewParticles extends React.Component {
                     left: 0,
                     width: "100%",
                     height: "100%",
-                    opacity: "0.9"
+                    opacity: "1"
                 }}>
                     <Particles id="particles-js" params={{
                         background: {
@@ -41,7 +41,7 @@ class NewParticles extends React.Component {
                                 bubble: {
                                     distance: 400,
                                     duration: 2,
-                                    opacity: 0.6,
+                                    opacity: 10,
                                     size: 40,
                                     speed: 3
                                 },
@@ -68,8 +68,8 @@ class NewParticles extends React.Component {
                             links: {
                                 color: "random",
                                 distance: 150,
-                                enable: true,
-                                opacity: 0.8,
+                                enable: false,
+                                opacity: 7,
                                 width: 1
                             },
                             collisions: {
@@ -80,7 +80,7 @@ class NewParticles extends React.Component {
                                 enable: true,
                                 outMode: "out",
                                 random: true,
-                                speed: 10,
+                                speed: 5,
                                 straight: false
                             },
                             number: {
@@ -88,17 +88,17 @@ class NewParticles extends React.Component {
                                     enable: true,
                                     value_area: 800
                                 },
-                                value: 80
+                                value: 75
                             },
                             opacity: {
-                                value: 0.9
+                                value: 1
                             },
                             shape: {
                                 type: ["star","square","circle","triangle"]
                             },
                             size: {
-                                random: true,
-                                value: 5,
+                                random: false,
+                                value: 10,
                                 // speed: 40
                             }
                         },
