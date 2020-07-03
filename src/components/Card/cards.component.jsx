@@ -25,9 +25,6 @@ function Card (props) {
                        <p className="card-text cText">
                            {props.description}
                        </p>
-
-
-
                    </div>
                </div>
            </div>

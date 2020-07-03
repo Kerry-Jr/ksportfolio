@@ -1,41 +1,32 @@
 .test, .kerry {
-    background-color: #3c4f57;
+    background-color: white;
     font-family: 'Inconsolata', monospace;
-    color: ghostwhite;
+    color: black;
     word-wrap: break-word;
-
+    margin-left: 1rem;
+    box-sizing: content-box;
+    z-index: 1;
+    text-indent: 25px;
+    text-transform: uppercase;
+    opacity: 0.8;
 }
 
-/*.kerry {*/
-/*    */
-/*    background-color: red;*/
-/*    border: 2px solid black ;*/
-/*    position: relative;*/
-/*    font-family: 'Inconsolata', monospace;*/
-/*    color: ghostwhite;*/
-
-
-/*}*/
 
 .myImage {
-    height: 200px;
+    height: 16rem;
 
     border: 2px solid black ;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25rem;
+    margin-bottom: 2rem;
 
 
 
 }
 
-.myBio {
-    text-transform: uppercase;
-    text-indent: 25px;
-    border: 2px solid black ;
 
-}
 
 .text-left, .text-right {
     font-family: 'Lobster', cursive;
