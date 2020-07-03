@@ -1,6 +1,8 @@
 .mainNav {
   background-color: rgb(54, 51, 50) !important;
-  
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
 }
 
 .col-md-12 {
@@ -8,3 +10,13 @@
   padding-left: 0;
 }
 
+.nbar-name {
+  margin-left: 7rem !important;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  color: cornflowerblue !important;
+}
+
+.menu-spacing {
+  margin-bottom: 100px;
+}
