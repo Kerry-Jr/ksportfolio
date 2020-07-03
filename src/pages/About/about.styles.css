@@ -22,8 +22,6 @@
     width: 25rem;
     margin-bottom: 2rem;
 
-
-
 }
 
 
@@ -33,6 +31,7 @@
 }
 
 
-li {
+.hobbies-text {
     font-family: 'Inconsolata', monospace;
+    font-size: 24px !important;
 }
