@@ -45,16 +45,48 @@ function About() {
                             <li>Mongoose.js</li>
                           </ul>
                         </p>
+                      <div className="row">
+                        <div className="col-md-6">
+                          <div className="skills">
+                            <div className="skill-name">
+                              <p>Design</p><p>85%</p>
+                            </div>
+                            <div className="progress">
+                              <div className="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                            </div>
+                            <br></br>
+                            <div className="skill-name">
+                              <p>SEO</p><p>95%</p>
+                            </div>
+                            <div className="progress">
+                              <div className="progress-bar bg-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="col-md-6">
+                          <div className="skills">
+                            <div className="skill-name">
+
+                              <p>Development</p><p>90%</p>
+                            </div>
+                            <div className="progress">
+                              <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              </div>
+                            </div>
+                            <br></br>
+                            <div className="skill-name">
+                              <p>Marketing</p><p>85%</p>
+                            </div>
+                            <div className="progress">
+                              <div className="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-
-
                 </div>
             </div>
-            {/*<div className='row'>*/}
-            {/*    <div className='col-12 text-center mt-5'>*/}
-
-            {/*    </div>*/}
-            {/*</div>*/}
         </div>
 
     )

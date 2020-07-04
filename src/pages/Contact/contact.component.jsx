@@ -1,6 +1,5 @@
 import React from 'react';
 import MyNavbar from '../../components/Navbar/navbar.component'
-import { Link } from 'react-router-dom'
 import './contact.styles.css';
 
 
