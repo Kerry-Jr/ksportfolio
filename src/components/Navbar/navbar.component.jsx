@@ -17,10 +17,13 @@ class Menu extends Component{
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="ml-auto navi-links">
-                                    <Nav.Link href="/" className='nbar-name' >Home</Nav.Link>
-                                    <Nav.Link href="/about" className='nbar-name' >About</Nav.Link>
-                                    <Nav.Link href="/portfolio" className='nbar-name' >Projects</Nav.Link>
-                                    <Nav.Link href="/contact" className='nbar-name' >Contact</Nav.Link>
+                                    <Nav.Link href="/" className='nbar-name' >Home <i className="fa fa-home"></i></Nav.Link>
+                                    <Nav.Link href="/about" className='nbar-name' >About <i
+                                       className="fa fa-address-card"></i></Nav.Link>
+                                    <Nav.Link href="/portfolio" className='nbar-name' >Projects <i
+                                       className="fa fa-file-archive"></i></Nav.Link>
+                                    <Nav.Link href="/contact" className='nbar-name' >Contact <i
+                                       className="fa fa-envelope"></i></Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
