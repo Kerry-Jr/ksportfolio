@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap';
 
 import './navbar.styles.css'
 
-class Menu extends Component{
+class Menu extends Component {
 
-    render(){
-        return(
+    render() {
+        return (
             <div>
                 <div className="row">
                     <div className="col-md-12">
@@ -17,27 +17,27 @@ class Menu extends Component{
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="ml-auto navi-links">
-                                    <Nav.Link href="/" className='nbar-name' >Home <i className="fa fa-home"></i></Nav.Link>
-                                    <Nav.Link href="/about" className='nbar-name' >About <i
-                                       className="fa fa-address-card"></i></Nav.Link>
+                                        <Nav.Link href="/" className='nbar-name' >Home <i className="fa fa-home"></i></Nav.Link>
+                                        <Nav.Link href="/about" className='nbar-name' >About <i
+                                            className="fa fa-address-card"></i></Nav.Link>
                                         <Nav.Link href="#" className='nbar-name' >My Resume <i
-                                       className="fa fa-address-card"></i></Nav.Link>
-                                    <Nav.Link href="/portfolio" className='nbar-name' >Projects <i
-                                       className="fa fa-file-archive"></i></Nav.Link>
-                                    <Nav.Link href="/contact" className='nbar-name' >Contact <i
-                                       className="fa fa-envelope"></i></Nav.Link>
+                                            className="fa fa-address-card"></i></Nav.Link>
+                                        <Nav.Link href="/portfolio" className='nbar-name' >Projects <i
+                                            className="fa fa-file-archive"></i></Nav.Link>
+                                        <Nav.Link href="/contact" className='nbar-name' >Contact <i
+                                            className="fa fa-envelope"></i></Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
                             <div className='menu-spacing'>
 
                             </div>
-                        <br/>
+                            <br />
                         </Router>
                     </div>
                 </div>
             </div>
-        )  
+        )
     }
 };
 

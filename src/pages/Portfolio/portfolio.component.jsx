@@ -28,13 +28,13 @@ class Portfolio extends Component {
         );
 
         return (
-              <div className='container-fluid'>
-                <MyNavbar/>
+            <div className='container-fluid'>
+                <MyNavbar />
                 <h1 className='card-header'>Projects I've completed solo and with teammates</h1>
                 <div className='row'>
-                  {showProjectsArr}
+                    {showProjectsArr}
                 </div>
-              </div>
+            </div>
 
         )
     }

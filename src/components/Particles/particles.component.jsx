@@ -7,7 +7,8 @@ class NewParticles extends React.Component {
     render() {
         return (
             <div className='container fluid sCanvas'>
-                <div className='particlesBackground'  style={{ position: "absolute",
+                <div className='particlesBackground' style={{
+                    position: "absolute",
                     top: 0,
                     left: 0,
                     width: "100%",
@@ -94,7 +95,7 @@ class NewParticles extends React.Component {
                                 value: 1
                             },
                             shape: {
-                                type: ["star","square","circle","triangle"]
+                                type: ["star", "square", "circle", "triangle"]
                             },
                             size: {
                                 random: false,
