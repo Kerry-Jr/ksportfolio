@@ -62,8 +62,10 @@ margin-top : 500px;
 
 
 .hero-title {
-    font-size: 85px;
-    font-family: 'Lobster', cursive;
+    font-size: 76px;
+
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'Inconsolata', monospace;
     /*margin-bottom: 35px;*/
     /*margin-top: 100px;*/
 }
@@ -72,6 +74,13 @@ margin-top : 500px;
     font-family: 'Inconsolata', monospace;
 
 }
+
+.hero-title:hover {
+    font-family: 'Lobster', cursive;
+
+}
+
+
 
 
 
