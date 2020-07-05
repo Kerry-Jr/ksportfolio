@@ -13,13 +13,16 @@ function About() {
                     <div className='col test'>
                         <h1 className='display-3 text-center'>About Me</h1>
                         <img className='myImage' src={kerry_smith} alt='Kerry'/>
-                        <p className='about-text'>My name is Kerry Smith. I'm a full stack engineer with interests in front-end Javascript libraries and UI/UX design. When we can visualize the data the design develops naturally, with this concept in mind I find that my most creative moments are dictated by the data I'm working.</p>
+                        <p className='about-text'>My name is Kerry Smith. I'm a full stack engineer with interests in front-end Javascript libraries and UI/UX design. When we can visualize the data the design develops intuitively and most importantly, it develops naturally. The data becomes the idea, the idea becomes the flow, and then the flow becomes the creative design I strive for with every new project.</p>
                       <div className='kerry-info'>
                         <p>
-                          I'm from and currently live and work in the Bay Area, Ca. During college I became a bar-tender to help pay for school and that taught me great inter-personal skills with many different people. After college, I began working for Vintrex Inc. I did your standard IT work taking care of more than 35 customers in the produce field. My duties include building and setting up new work-stations for individuals. Maintain their in house built by us Server. Managed their networks, SQL server, shopping carts in the cloud with services such as digital ocean, Amazon AWS, and ftp servers, authentication, and etc.</p>
+                          I'm from and currently live and work in the Bay Area, Ca. During college I became a bar-tender to help pay for school and that taught me great inter-personal skills with many different people. After college, I began working for Vintrex Inc. I did your standard IT work taking care of more than 35 customers in the produce industry where food safety and government regulation is highly important.</p>
+                       <div className='kerry-info'>
+                         <p> My duties included building and setting up new work-stations for individuals, maintaining their in-house/cloud servers, managed their networks, SQL / authentication, and their online shopping carts in the cloud with services such as digital ocean, Amazon AWS, and ftp servers.</p>
+                       </div>
                           <div className='kerry-info'>
                             <p className='about-text'>
-                              Recently, I graduated from University of California, Berkeley extension from their bootcamp. During my time there I was taught the MERN stack and have developed these skills further even after my time @ the bootcamp.
+                              Recently, I graduated from University of California, Berkeley extension bootcamp. During my time there I was taught the MERN stack and have developed these skills further even after my time @ the bootcamp and reignited my passion of learning and technology.
                             </p>
                           </div>
 
