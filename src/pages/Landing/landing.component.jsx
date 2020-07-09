@@ -10,8 +10,8 @@ function Landing() {
         <div className="hero-text container">
           <p className='hero-title'>Hello, my name is Kerry Smith</p>
           <p className='hero-title'></p>
-          <p className='hero-decoration'>And I'm a Full-Stack web developer</p>
-          <p className='text-muted'>(Click the stars!)</p>
+          <p className='hero-decoration'>and I'm a Full-Stack web developer</p>
+          <p>(Click the shapes!)</p>
           <Link to='/about' as='button' className='btn-lg btn-warning enter-btn'>Enter</Link>
         </div>
       </div>
