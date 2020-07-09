@@ -12,7 +12,7 @@ function Landing() {
           <p className='hero-title'></p>
           <p className='hero-decoration'>And I'm a Full-Stack web developer</p>
           <p className='text-muted'>(Click the stars!)</p>
-          <Link to='/about' as='button' className='btn-lg btn-danger'>Hire me</Link>
+          <Link to='/about' as='button' className='btn-lg btn-warning enter-btn'>Enter</Link>
         </div>
       </div>
     </section>

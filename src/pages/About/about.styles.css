@@ -26,8 +26,10 @@
 
 
 
-.text-center {
+.about-header {
     font-family: 'Inconsolata', monospace;
+    text-decoration: cornflowerblue underline;
+
 }
 
 
@@ -100,3 +102,5 @@
     transition: 1s;
 
 }
+
+
