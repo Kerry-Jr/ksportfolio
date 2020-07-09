@@ -34,8 +34,8 @@ margin-top : 500px;
 /*https://images.wallpaperscraft.com/image/lines_colorful_pattern_130007_3840x2160.jpg*/
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://images.hdqwalls.com/wallpapers/dillusion-abstract-4k-z5.jpg');
-    opacity: 0.7;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://images.hdqwalls.com/wallpapers/dark-abstract-pattern-4k-93.jpg');
+    opacity: 0.6;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,6 +50,7 @@ margin-top : 500px;
     position: absolute;
     top: 400px;
     left: 50%;
+    z-index: 1 !important;
 
     transform: translate(-50%, -50%);
     color: white;

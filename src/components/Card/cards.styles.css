@@ -30,7 +30,7 @@ div.card.item-card.bg-light {
 width: 25rem;
     height: 35rem;
     margin-bottom: 50px;
-    background-color: #0191ce !important;
+    background-color: #90b2e3 !important;
     border-radius: 25px;
     box-shadow: 10px 5px 5px 1px rgba(0,0,0,0.95)!important;
     opacity: 0.9;
@@ -45,7 +45,7 @@ div.card.item-card.bg-light::-webkit-scrollbar {
 
 }
 
-
+/*#0191ce*/
 
 
 

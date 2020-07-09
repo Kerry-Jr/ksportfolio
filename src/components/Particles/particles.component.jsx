@@ -18,7 +18,7 @@ class NewParticles extends React.Component {
                     <Particles id="particles-js" params={{
                         background: {
                             color: {
-                                value: "0d0d0d"
+                                value: "#000000"
                             }
                         },
                         fpsLimit: 144,
