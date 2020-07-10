@@ -81,7 +81,7 @@ class NewParticles extends React.Component {
                                 enable: true,
                                 outMode: "out",
                                 random: true,
-                                speed: 5,
+                                speed: 8,
                                 straight: false
                             },
                             number: {
@@ -107,7 +107,6 @@ class NewParticles extends React.Component {
                     }} />
 
                 </div>
-
             </div>
         )
     }

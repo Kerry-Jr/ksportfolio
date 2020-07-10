@@ -16,7 +16,7 @@ function Contact() {
             </a>
 
             <div className='social-text'>
-              My Email
+              Email
                 </div>
           </div>
           <div className='col social'>
@@ -24,7 +24,7 @@ function Contact() {
               <i className="fab fa-github social-style"></i>
             </a>
             <div className='social-text'>
-              My Github
+              Github
                 </div>
           </div>
           <div className='col social'>
@@ -32,7 +32,7 @@ function Contact() {
               <i className="fab fa-linkedin-in social-style"></i>
             </a>
             <div className='social-text'>
-              My Linked in
+              LinkedIn
                 </div>
           </div>
         </div>

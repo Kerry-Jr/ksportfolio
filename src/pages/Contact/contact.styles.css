@@ -1,5 +1,3 @@
-
-
 .icon {
     font-size: 200px;
     color: cornflowerblue;
@@ -9,12 +7,13 @@
     height: 25rem;
     width: 50rem;
     position: relative;
-    background-color: white;
-    opacity: 0.5;
+    background-color: ghostwhite;
+    opacity: 0.8;
     z-index: 1;
     border-radius: 3rem;
     padding: 2rem;
     margin-top: 6rem;
+
 
 
 }
@@ -27,7 +26,8 @@
     margin-top: 4rem;
     box-shadow: 10px 10px 15px rgba(0,0,0,1);
     opacity: 0.8;
-    transition: 0.3s;
+    transition: 0.4s;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.99);*/
 
 }
 
@@ -35,7 +35,7 @@
     color: white;
     background-color: cornflowerblue;
     opacity: 1;
-    /*border: 1px solid black;*/
+    box-shadow: 10px 10px 15px rgba(0,0,0,1);
     transform: scale(1.5);
 }
 
@@ -43,8 +43,9 @@
 
 .social-text {
     font-family: 'Inconsolata', monospace;
-    margin-left: 1rem;
+    margin-right: 1rem;
     font-size: 24px;
+    text-align: center !important;
 
 }
 
