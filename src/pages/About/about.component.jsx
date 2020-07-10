@@ -14,7 +14,7 @@ function About() {
           <div className='col test'>
             <h1 className='display-3 text-center about-header'>About Me</h1>
             <img className='myImage' src={kerry_smith} alt='Kerry' />
-            <p className='about-text'>My name is Kerry Smith. I'm a full stack engineer with interests in front-end Javascript libraries and UI/UX design. When we can visualize the data the design develops intuitively and most importantly, it develops naturally. The data becomes the idea, the idea becomes the flow, and then the flow becomes the creative design I strive for with every new project.</p>
+            <p className='about-text'>My name is Kerry Smith. I'm a full stack engineer with interests in front-end Javascript libraries and UI/UX design. When we can visualize data the design develops intuitively and most importantly, it develops naturally.  It's like a runaway train of inspiration when the data becomes the idea, the idea then becomes the flow, and then the flow becomes the creative design I strive for with every new project.</p>
             <div className='kerry-info'>
               <p>
                 I'm from and currently live and work in the Bay Area, Ca. During college I became a bar-tender to help pay for school and that taught me great interpersonal skills with many different people. After college, I began working for Vintrex Inc. I did your standard IT work taking care of more than 35 customers in the produce industry where food safety and government regulation was highly important.</p>
@@ -41,14 +41,14 @@ function About() {
                     <p>Design</p><p>85%</p>
                   </div>
                   <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div className="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85 percent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                   </div>
                   <br></br>
                   <div className="skill-name">
                     <p>SEO</p><p>95%</p>
                   </div>
                   <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                   </div>
                 </div>
               </div>
@@ -60,15 +60,14 @@ function About() {
                     <p>Development</p><p>90%</p>
                   </div>
                   <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                              </div>
+                    <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                   </div>
                   <br></br>
                   <div className="skill-name">
                     <p>Marketing</p><p>85%</p>
                   </div>
                   <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div className="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                   </div>
                 </div>
               </div>
