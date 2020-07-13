@@ -13,7 +13,7 @@ class Menu extends Component {
                     <div className="col-md-12">
                         <Router>
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className='mainNav'>
-                                <Navbar.Brand href="#" className='nbar-name'>Kerry Smith</Navbar.Brand>
+                                <Navbar.Brand href="https://github.com/Kerry-Jr" className='nbar-name'>Kerry Smith</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="ml-auto navi-links">

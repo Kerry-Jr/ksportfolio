@@ -33,8 +33,10 @@ margin-top : 500px;
 
 /*https://images.wallpaperscraft.com/image/lines_colorful_pattern_130007_3840x2160.jpg*/
 
+/*https://images.hdqwalls.com/wallpapers/dark-abstract-pattern-4k-93.jpg*/
+
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://images.hdqwalls.com/wallpapers/dark-abstract-pattern-4k-93.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://images.wallpaperscraft.com/image/liquid_stains_bubbles_142270_2560x1440.jpg');
     opacity: 0.6;
     background-position: top;
     background-repeat: no-repeat;
