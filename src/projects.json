@@ -52,5 +52,14 @@
     "technologies": "Tech used: React, Redux, JWT authentication, Firebase, Node.js, ESLint (AirBnB rules), SASS, redux-logger,Stripe payment services, Google OAuth 2, and more, and deployed with Heroku.",
     "liveLink": "//react-crwn-clothing-app.herokuapp.com/",
     "repository": "//github.com/Kerry-Jr/ecommerce-project"
+  },
+  {
+    "id": 7,
+    "name": "React Color-App",
+    "image": "https://github.com/Kerry-Jr/colors-app/blob/master/src/assets/colorApp.PNG?raw=true",
+    "description": "Project from Udemy course The Modern React Bootcamp by Colt Steele- React app with all Material UI colors from around the world!",
+    "technologies": "Tech used: React, React-router-dom, Material UI w/ style, react transition group, react copy to clipboard, HOC, Node.js, ESLint (AirBnB rules), Styled Components, and deployed with Heroku.",
+    "liveLink": "//the-colors-app.herokuapp.com/",
+    "repository": "//github.com/Kerry-Jr/colors-app"
   }
 ]
