@@ -5,8 +5,8 @@
     "image": "https://kerry-jr.github.io/Homework2/Assets/Images/homework03.PNG",
     "description": "Web application that generates random and unique strings based on user parameters",
     "technologies":  "Tech used:  HTML, CSS, Vanilla JavaScript",
-    "liveLink": "//kerry-jr.github.io/Homework-03-PWgen/",
-    "repository":  "//github.com/Kerry-Jr/Homework-03-PWgen"
+    "liveLink": "//kerry-jr.github.io/03-javascript-passwordGen/",
+    "repository":  "//github.com/Kerry-Jr/03-javascript-passwordGen"
   },
   {
     "id": 2,
