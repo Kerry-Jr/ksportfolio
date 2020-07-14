@@ -14,7 +14,7 @@
     "image": "https://kerry-jr.github.io/Homework2/Assets/Images/homework06.PNG",
     "description": "Weather application that reports current and weekly forecasts.",
     "technologies": "Tech used:  HTML, CSS w/bootstrap, Javascript, Moment.js, jQuery, OpenWeather API",
-    "liveLink": "//kerry-jr.github.io/Homework06/",
+    "liveLink": "//kerry-jr.github.io/weatherApp/",
     "repository": "//github.com/Kerry-Jr/Homework06"
   },
   {
