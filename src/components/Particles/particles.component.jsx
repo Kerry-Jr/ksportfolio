@@ -43,7 +43,7 @@ class NewParticles extends React.Component {
                                     distance: 400,
                                     duration: 2,
                                     opacity: 10,
-                                    size: 40,
+                                    size: 10,
                                     speed: 3
                                 },
                                 push: {
@@ -67,7 +67,7 @@ class NewParticles extends React.Component {
                                 value: "random"
                             },
                             links: {
-                                color: "random",
+                                color: "#FFFFFF",
                                 distance: 150,
                                 enable: false,
                                 opacity: 7,
@@ -79,9 +79,9 @@ class NewParticles extends React.Component {
                             move: {
                                 direction: "none",
                                 enable: true,
-                                outMode: "out",
+                                outMode: "bounce",
                                 random: true,
-                                speed: 8,
+                                speed: 6,
                                 straight: false
                             },
                             number: {
@@ -95,11 +95,11 @@ class NewParticles extends React.Component {
                                 value: 1
                             },
                             shape: {
-                                type: ["star", "square", "circle", "triangle"]
+                                type: 'circle'
                             },
                             size: {
                                 random: false,
-                                value: 10,
+                                value: 5,
                                 // speed: 40
                             }
                         },

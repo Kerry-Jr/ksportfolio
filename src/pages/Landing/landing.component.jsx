@@ -11,7 +11,7 @@ function Landing() {
           <p className='hero-title'>Hello, my name is Kerry Smith</p>
           <p className='hero-title'></p>
           <p className='hero-decoration'>and I'm a Full-Stack web developer</p>
-          <p>(Click the shapes!)</p>
+          <p>(Click the background!)</p>
           <Link to='/about' as='button' className='btn-lg btn-warning enter-btn'>Enter</Link>
         </div>
       </div>
