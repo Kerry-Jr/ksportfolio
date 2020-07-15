@@ -37,8 +37,10 @@ margin-top : 500px;
 
 /*https://images.wallpaperscraft.com/image/liquid_stains_bubbles_142270_2560x1440.jpg*/
 
+/*https://images.wallpaperscraft.com/image/lines_stripes_neon_129934_2560x1440.jpg*/
+
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://images.wallpaperscraft.com/image/lines_stripes_neon_129934_2560x1440.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://images.wallpaperscraft.com/image/circuit_processor_chip_165681_2560x1440.jpg');
     opacity: 0.6;
     background-position: top;
     background-repeat: no-repeat;

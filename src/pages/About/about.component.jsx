@@ -62,7 +62,7 @@ function About() {
                   <div className="progress">
                     <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                   </div>
-                  <br></br>
+                  <br/>
                   <div className="skill-name">
                     <p>Marketing</p><p>85%</p>
                   </div>

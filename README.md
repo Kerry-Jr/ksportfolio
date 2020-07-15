@@ -31,7 +31,7 @@ git clone
 
 The application is located here: [Kerry Smith portfolio](https://portfolio-kerry-smith.herokuapp.com/portfolio/). Please enjoy my work!
 
-# Tests
+# How to use
 
 Clone then run first cmd then once that is finished run second cmd 
 
