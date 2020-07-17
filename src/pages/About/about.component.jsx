@@ -34,44 +34,6 @@ function About() {
               <AboutList />
               <br/>
             </span>
-            <div className="row">
-              <div className="col-md-6">
-                <div className="skills">
-                  <div className="skill-name">
-                    <p>Design</p><p>85%</p>
-                  </div>
-                  <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85 percent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                  </div>
-                  <br></br>
-                  <div className="skill-name">
-                    <p>SEO</p><p>95%</p>
-                  </div>
-                  <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6">
-                <div className="skills">
-                  <div className="skill-name">
-
-                    <p>Development</p><p>90%</p>
-                  </div>
-                  <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                  </div>
-                  <br/>
-                  <div className="skill-name">
-                    <p>Marketing</p><p>85%</p>
-                  </div>
-                  <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85 percent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

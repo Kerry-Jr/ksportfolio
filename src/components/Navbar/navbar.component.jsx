@@ -8,14 +8,14 @@ class Menu extends Component {
 
     render() {
         return (
-            <div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <Router>
-                            <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className='mainNav'>
-                                <Navbar.Brand href="https://github.com/Kerry-Jr" className='nbar-name'>Kerry Smith</Navbar.Brand>
-                                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                                <Navbar.Collapse id="basic-navbar-nav">
+           <div>
+               <div className="row">
+                   <div className="col-md-12">
+                       <Router>
+                           <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className='mainNav'>
+                               <Navbar.Brand href="https://github.com/Kerry-Jr" className='nbar-name'>Kerry Smith</Navbar.Brand>
+                               <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                               <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="ml-auto navi-links">
                                         <Nav.Link href="/" className='nbar-name' >Home <i className="fa fa-home"></i></Nav.Link>
                                         <Nav.Link href="/about" className='nbar-name' >About <i

@@ -9,7 +9,7 @@ function Card(props) {
         <section>
             <div className='col-sm-4 md-6 lg-10 offset-1'>
                 <div className='container mt-5'>
-                    <div className="card item-card bg-light" key={props.id}>
+                    <div className="card item-card bg-light" >
                         <h4 className="card-title text-center">{props.name}</h4>
                         <img src={props.image} className='card-image-top'
                             alt="..." />

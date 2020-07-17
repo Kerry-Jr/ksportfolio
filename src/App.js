@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio/portfolio.component";
 import Contact from './pages/Contact/contact.component';
 
 import './App.css';
+import MoreProjects from "./pages/MoreProjects/moreprojects.component";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
                 <Route exact path='/' component={Landing} />
                 <Route exact path='/about' render={() => <About />} />
                 <Route exact path='/portfolio' render={() => <Portfolio />} />
+                <Route exact path='/portfolio/moreprojects' render={() => <MoreProjects />} />
                 <Route exact path='/contact' render={() => <Contact />} />
             </Router>
             <NewParticles
