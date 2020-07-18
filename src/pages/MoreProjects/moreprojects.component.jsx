@@ -42,5 +42,6 @@ class MoreProjects extends Component {
 
     )
   }
+
 }
 export default MoreProjects;

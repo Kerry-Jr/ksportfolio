@@ -11,8 +11,6 @@ class Portfolio extends Component {
         projects: projects
     };
 
-
-
     render() {
         const myProjectsArr = this.state.projects.slice(3,7);
         const showProjectsArr = myProjectsArr.map((project) =>
