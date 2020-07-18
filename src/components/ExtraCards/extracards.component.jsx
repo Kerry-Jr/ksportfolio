@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './extracards.styles.css';
+import '../Card/cards.styles.css';
 
 function ExtraCards(props) {
   return (
