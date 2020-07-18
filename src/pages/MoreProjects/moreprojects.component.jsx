@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../../components/Card/cards.component';
-import moreProjects from '../../moreProjects.json';
+import projects from '../../projects.json';
 import MyNavbar from '../../components/Navbar/navbar.component'
 import './moreprojects.styles.css';
 
@@ -12,11 +12,11 @@ class MoreProjects extends Component {
  }
 
   state = {
-    moreProjects: moreProjects
+    projects: projects
   };
 
   render() {
-    const moreProjectsArr = this.state.moreProjects;
+    const moreProjectsArr = this.state.projects.slice(0,3);
     const extraProjects = moreProjectsArr.map((extraProject) =>
        <div className='col-sm-4 md-6 lg-10 offset-1' key={extraProject.id}>
          <Card

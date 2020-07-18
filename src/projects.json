@@ -1,5 +1,32 @@
 [
   {
+    "id": 1,
+    "name": "Password Generator",
+    "image": "https://kerry-jr.github.io/Homework2/Assets/Images/homework03.PNG",
+    "description": "Web application that generates random and unique strings based on user parameters",
+    "technologies":  "Tech used:  HTML, CSS, Vanilla JavaScript",
+    "liveLink": "//kerry-jr.github.io/03-javascript-passwordGen/",
+    "repository":  "//github.com/Kerry-Jr/03-javascript-passwordGen"
+  },
+  {
+    "id": 2,
+    "name": "Weather Dashboard",
+    "image": "https://kerry-jr.github.io/Homework2/Assets/Images/homework06.PNG",
+    "description": "Weather application that reports current and weekly forecasts.",
+    "technologies": "Tech used:  HTML, CSS w/bootstrap, Javascript, Moment.js, jQuery, OpenWeather API",
+    "liveLink": "//kerry-jr.github.io/weatherApp/",
+    "repository": "//github.com/Kerry-Jr/Homework06"
+  },
+  {
+    "id": 3,
+    "name": "Fitness Tracker App",
+    "image": "https://github.com/Kerry-Jr/homework11/blob/master/assets/image/fitness.PNG?raw=true",
+    "description": "Fitness tracking app built with node and jQuery. Add exercises, complete exercises and then track them in the dashboard on charts and graphs",
+    "technologies": "Tech used:  HTML, Semantic UI JavaScript,Mongoose.js, express,Node, jQuery",
+    "liveLink": "//boiling-ocean-07814.herokuapp.com/",
+    "repository": "https://github.com/Kerry-Jr/homework11"
+  },
+  {
     "id": 4,
     "name": "Blog Site",
     "image": "https://github.com/Kerry-Jr/Project02/raw/master/client/src/assets/images/app.PNG",

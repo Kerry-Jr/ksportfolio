@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 import Card from '../../components/Card/cards.component';
 import projects from '../../projects.json';
 import MyNavbar from '../../components/Navbar/navbar.component'
@@ -15,10 +14,7 @@ class Portfolio extends Component {
 
 
     render() {
-        // const testArr = this.state.projects.slice(1,3);
-        // console.log(testArr);
-        // console.log('kerry')
-        const myProjectsArr = this.state.projects;
+        const myProjectsArr = this.state.projects.slice(3,7);
         const showProjectsArr = myProjectsArr.map((project) =>
             <div className='col-sm-4 md-6 lg-10 offset-1' key={project.id}>
                 <Card
@@ -30,9 +26,7 @@ class Portfolio extends Component {
                     technologies={project.technologies}
                 />
             </div>
-
         );
-
         return (
             <div className='container-fluid'>
                 <MyNavbar />
@@ -40,13 +34,11 @@ class Portfolio extends Component {
                 <div className='row'>
                     {showProjectsArr}
                 </div>
-
                     <div className='container btnMore'>
                       <Link to='/portfolio/moreprojects'>
                         <button className="slide_from_left">...more projects</button>
                       </Link>
                     </div>
-
             </div>
 
         )
