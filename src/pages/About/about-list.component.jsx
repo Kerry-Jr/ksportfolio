@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class AboutList extends Component {
   render() {
-    const languages = [{'name': 'html5'}, {'name': 'css3'}, {'name':'sass'}, {'name': 'javascript'},{'name': 'jquery'},{'name':'react'}, {'name':'redux'},{'name':'redux-form'},{'name': 'redux-thunk'},{'name':'Python (work in progress)'},{'name':'express.js'},{'name':'node.js'},{'name':'MySQL'},{'name': 'MongoDB'},{'name':'Firebase'},{'name':'Mongoose.js'}];
+    const languages = [{'name': 'html5'}, {'name': 'css3'}, {'name':'sass'}, {'name': 'javascript'},{'name': 'jquery'},{'name':'react'}, {'name':'redux'},{'name':'redux-form'},{'name':'Python (work in progress)'},{'name':'express.js'},{'name':'node.js'},{'name':'MySQL'},{'name': 'MongoDB'},{'name':'Firebase'},{'name':'Mongoose.js'}, {'name': 'Next.JS'}];
     return (
        <div>
          {languages.map(function(language, idx){
