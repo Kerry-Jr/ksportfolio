@@ -5,9 +5,11 @@ import Landing from "./pages/Landing/landing.component";
 import About from "./pages/About/about.component";
 import Portfolio from "./pages/Portfolio/portfolio.component";
 import Contact from './pages/Contact/contact.component';
+import MoreProjects from "./pages/MoreProjects/moreprojects.component";
+
 
 import './App.css';
-import MoreProjects from "./pages/MoreProjects/moreprojects.component";
+
 
 function App() {
 
