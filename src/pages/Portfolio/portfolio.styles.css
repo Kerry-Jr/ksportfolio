@@ -55,3 +55,8 @@ button.slide_from_left::after {
     left: -100%;
     right: 100%;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+

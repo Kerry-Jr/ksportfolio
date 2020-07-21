@@ -46,61 +46,61 @@
 }
 
 
-.about img {
-    width: 100%;
-    height: auto;
-}
+/*.about img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
 
-@media(max-width: 767px) {
-    .about img {
-        margin-bottom: 15px;
-    }
-}
+/*@media(max-width: 767px) {*/
+/*    .about img {*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+/*}*/
 
-.about .btn {
-    border-radius: 0;
-    color: #222222;
-    background: #FF6F61;
-    transition: all .3s;
-}
+/*.about .btn {*/
+/*    border-radius: 0;*/
+/*    color: #222222;*/
+/*    background: #FF6F61;*/
+/*    transition: all .3s;*/
+/*}*/
 
-.about .btn:hover {
-    color: #FF6F61;
-    background: #222222;
-}
+/*.about .btn:hover {*/
+/*    color: #FF6F61;*/
+/*    background: #222222;*/
+/*}*/
 
-.about .skills {
-    padding-top: 15px;
-}
+/*.about .skills {*/
+/*    padding-top: 15px;*/
+/*}*/
 
-.about .skill-name {
-    margin-top: 15px;
-}
+/*.about .skill-name {*/
+/*    margin-top: 15px;*/
+/*}*/
 
-.about .skill-name p {
-    display: inline-block;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 400;
-}
+/*.about .skill-name p {*/
+/*    display: inline-block;*/
+/*    margin-bottom: 5px;*/
+/*    font-size: 16px;*/
+/*    font-weight: 400;*/
+/*}*/
 
-.about .skill-name p:last-child {
-    float: right;
-}
+/*.about .skill-name p:last-child {*/
+/*    float: right;*/
+/*}*/
 
-.about .progress {
-    height: 5px;
-    border: 1px solid #FF6F61;
-    border-radius: 0;
-    background: #ffffff;
-}
+/*.about .progress {*/
+/*    height: 5px;*/
+/*    border: 1px solid #FF6F61;*/
+/*    border-radius: 0;*/
+/*    background: #ffffff;*/
+/*}*/
 
-.about .progress .progress-bar {
-    width: 1px;
-    background: #FF6F61;
-    border-radius: 0;
-    transition: 1s;
+/*.about .progress .progress-bar {*/
+/*    width: 1px;*/
+/*    background: #FF6F61;*/
+/*    border-radius: 0;*/
+/*    transition: 1s;*/
 
-}
+/*}*/
 
 

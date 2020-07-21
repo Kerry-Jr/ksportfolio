@@ -34,7 +34,7 @@ class MoreProjects extends Component {
     return (
        <div className='container-fluid'>
          <MyNavbar />
-         <h1 className='extra-header'>Some more Projects</h1>
+         <h1 className='extra-header'>some more to look @</h1>
          <div className='row'>
            {extraProjects}
          </div>

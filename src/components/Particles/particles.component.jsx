@@ -95,7 +95,7 @@ class NewParticles extends React.Component {
                                 value: 1
                             },
                             shape: {
-                                type: 'circle'
+                                type: 'polygon'
                             },
                             size: {
                                 random: false,

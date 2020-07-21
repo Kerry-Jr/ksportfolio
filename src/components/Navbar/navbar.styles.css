@@ -2,7 +2,7 @@
   background-color: rgb(54, 51, 50) !important;
   position: fixed !important;
   top: 0 !important;
-  width: 100% !important;
+  width: 100%;
 }
 
 .col-md-12 {
