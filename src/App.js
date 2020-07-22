@@ -7,12 +7,9 @@ import Portfolio from "./pages/Portfolio/portfolio.component";
 import Contact from './pages/Contact/contact.component';
 import MoreProjects from "./pages/MoreProjects/moreprojects.component";
 
-
 import './App.css';
 
-
 function App() {
-
     return (
         <div className='main-app container-fluid'>
             <Router>
@@ -22,11 +19,8 @@ function App() {
                 <Route exact path='/portfolio/moreprojects' render={() => <MoreProjects />} />
                 <Route exact path='/contact' render={() => <Contact />} />
             </Router>
-            <NewParticles
-
-            />
+            <NewParticles />
         </div>
     );
 }
-
 export default App;

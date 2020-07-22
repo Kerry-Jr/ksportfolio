@@ -6,11 +6,9 @@ import MyNavbar from '../../components/Navbar/navbar.component'
 import './portfolio.styles.css';
 
 class Portfolio extends Component {
-
     state = {
         projects: projects
     };
-
     render() {
         const myProjectsArr = this.state.projects.slice(3,7);
         const showProjectsArr = myProjectsArr.map((project) =>
@@ -38,7 +36,6 @@ class Portfolio extends Component {
                       </Link>
                     </div>
             </div>
-
         )
     }
 }

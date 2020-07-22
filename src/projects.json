@@ -24,7 +24,7 @@
     "description": "Fitness tracking app built with node and jQuery. Add exercises, complete exercises and then track them in the dashboard on charts and graphs",
     "technologies": "Tech used:  HTML, Semantic UI JavaScript,Mongoose.js, express,Node, jQuery",
     "liveLink": "//boiling-ocean-07814.herokuapp.com/",
-    "repository": "https://github.com/Kerry-Jr/homework11"
+    "repository": "//github.com/Kerry-Jr/homework11"
   },
   {
     "id": 4,

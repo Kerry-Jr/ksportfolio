@@ -2,8 +2,6 @@
   text-align: center;
 }
 
-
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -42,7 +40,6 @@
 body, html {
   height: 100%;
   width: 100%;
-
 }
 
 a {
@@ -58,6 +55,5 @@ a:hover {
   height: 100%;
   margin: 0;
   padding: 0;
-
 }
 

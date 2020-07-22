@@ -6,7 +6,6 @@ import './moreprojects.styles.css';
 
 class MoreProjects extends Component {
 
-
  componentDidMount() {
    window.scrollTo(0,0);
  }
@@ -28,9 +27,7 @@ class MoreProjects extends Component {
             technologies={extraProject.technologies}
          />
        </div>
-
     );
-
     return (
        <div className='container-fluid'>
          <MyNavbar />
@@ -39,9 +36,7 @@ class MoreProjects extends Component {
            {extraProjects}
          </div>
        </div>
-
     )
   }
-
 }
 export default MoreProjects;

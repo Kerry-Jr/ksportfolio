@@ -4,7 +4,6 @@ import AboutList from "./about-list.component";
 import kerry_smith from './../../assets/kerry-smith.jpg';
 import './about.styles.css';
 
-
 function About() {
   return (
     <div>
@@ -39,8 +38,6 @@ function About() {
         </div>
       </div>
     </div>
-
   )
 }
-
 export default About;
