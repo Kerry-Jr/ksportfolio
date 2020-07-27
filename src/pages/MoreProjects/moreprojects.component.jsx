@@ -32,7 +32,7 @@ class MoreProjects extends Component {
        <div className='container-fluid'>
          <MyNavbar />
          <h1 className='extra-header'>some more to look @</h1>
-         <div className='row'>
+         <div className='row more-fade'>
            {extraProjects}
          </div>
        </div>

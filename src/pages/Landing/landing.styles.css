@@ -5,7 +5,7 @@ margin-top : 500px;
 .hero-section {
     position: relative;
     height: 100vh;
-    animation: fadeInAnimation ease 5s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -44,16 +44,14 @@ margin-top : 500px;
 /*https://images.wallpaperscraft.com/image/paint_dark_circle_145406_2560x1440.jpg*/
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://images.wallpaperscraft.com/image/wave_strokes_paint_139597_2560x1440.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://images.wallpaperscraft.com/image/lines_glow_stripes_137369_2560x1440.jpg');
     opacity: 0.6;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     /*position: relative;*/
     display: flex;
-    height: 80rem;
-
-
+    height: 100vh;
 
 }
 

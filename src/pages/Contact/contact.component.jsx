@@ -8,7 +8,7 @@ function Contact() {
     <div>
       <MyNavbar />
       <h1 className='social-header'>Please contact me @</h1>
-      <div className='container social-platform'>
+      <div className='container social-platform contact-fade'>
         <div className='row'>
           <div className='col social'>
             <a href='mailto:kerrysfs@gmail.com' className='text-mail'>

@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
       <MyNavbar />
-      <div className='container'>
+      <div className='container about-fade'>
         <div className='row'>
           <div className='col test'>
             <h1 className='display-3 text-center about-header'>About Me</h1>

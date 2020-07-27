@@ -9,6 +9,7 @@ class Portfolio extends Component {
     state = {
         projects: projects
     };
+
     render() {
         const myProjectsArr = this.state.projects.slice(3,7);
         const showProjectsArr = myProjectsArr.map((project) =>
@@ -26,6 +27,7 @@ class Portfolio extends Component {
         return (
             <div className='container-fluid'>
                 <MyNavbar />
+                <div className='port-fade'>
                 <h1 className='card-header'>Projects I've completed solo and with collaborators</h1>
                 <div className='row'>
                     {showProjectsArr}
@@ -35,8 +37,11 @@ class Portfolio extends Component {
                         <button className="slide_from_left">...more projects</button>
                       </Link>
                     </div>
+                </div>
             </div>
         )
     }
+
+
 }
 export default Portfolio;
