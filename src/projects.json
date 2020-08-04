@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Planet.COM",
     "image": "https://github.com/Kerry-Jr/eventplannerProject03/raw/master/assets/ss/eventPage.png",
-    "description": "Plan and keep track of your events.",
+    "description": "Sign in/ up , create events, share events via pin access code, share on messageboards, and invite all of your friends to join.",
     "technologies": "Tech used: React, Redux, JWT authentication, Express.js, MongoDB, Node.js, ESLint (AirBnB rules), Semantic UI React, Mongoose, and deployed with Heroku.",
     "liveLink": "//ucb-bootcamp-project3.herokuapp.com/",
     "repository": "//github.com/jngo2013/Project03"

@@ -13,10 +13,10 @@ function About() {
           <div className='col test'>
             <h1 className='display-3 text-center about-header'>About Me</h1>
             <img className='myImage' src={kerry_smith} alt='Kerry' />
-            <p className='about-text'>My name is Kerry Smith. I am a full stack engineer with interests in front-end Javascript libraries and UI/UX design. When we can visualize data the design develops intuitively and most importantly, it develops naturally. To see the front and back-end come together bit by bit is truly rewarding.</p>
+            <p className='about-text'>My name is Kerry Smith. I am a full stack engineer with interests in front-end JavaScript libraries and UI/UX design. When we can visualize data, the design develops intuitively and most importantly, it develops naturally. To see the front and back-end come together bit by bit is truly rewarding.</p>
             <div className='kerry-info'>
               <p>
-                I'm from and currently live and work in the Bay Area, Ca. During college I became a bar-tender to help pay for school and that taught me great interpersonal skills with many different people. After college, I began working for Vintrex Inc and then Parsemony Inc. I did your standard IT work taking care of more than 35 customers in the produce industry where food safety and government regulation was highly important.</p>
+                I am from and currently live and work in the Bay Area, Ca. During college I became a bar-tender to help pay for school and that taught me great interpersonal skills with many different people. After college, I began working for Vintrex Inc and then Parsemony Inc. I did your standard IT work taking care of more than 35 customers in the produce industry where food safety and government regulation was incredibly important.</p>
               {/*<div className='kerry-info'>*/}
               {/*  <p> My duties included building and setting up new work-stations for individuals, maintaining their in-house/cloud servers, managed their networks, SQL / authentication, and their online shopping carts in the cloud with services such as digital ocean, Amazon AWS, and ftp servers.</p>*/}
               {/*</div>*/}
