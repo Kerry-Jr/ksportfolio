@@ -33,7 +33,7 @@ class NewParticles extends React.Component {
                                     enable: true,
                                     mode: "grab",
                                     color: {
-                                        value: "#FF0000"
+                                        value: "#909CBC"
                                     }
                                 },
                                 resize: true
@@ -42,7 +42,7 @@ class NewParticles extends React.Component {
                                 bubble: {
                                     distance: 400,
                                     duration: 2,
-                                    opacity: 10,
+                                    opacity: 0.6,
                                     size: 10,
                                     speed: 3
                                 },
@@ -51,7 +51,7 @@ class NewParticles extends React.Component {
                                     particles_nb: 4
                                 },
                                 repulse: {
-                                    distance: 200,
+                                    distance: 500,
                                     duration: 0.4
                                 },
                                 grab: {
@@ -64,14 +64,14 @@ class NewParticles extends React.Component {
                         },
                         particles: {
                             color: {
-                                value: "random"
+                                value: "#408CAA"
                             },
                             links: {
                                 color: "#FFFFFF",
-                                distance: 150,
+                                distance: 200,
                                 enable: false,
-                                opacity: 7,
-                                width: 1
+                                opacity: 0.5,
+                                width: 8
                             },
                             collisions: {
                                 enable: true
@@ -81,7 +81,7 @@ class NewParticles extends React.Component {
                                 enable: true,
                                 outMode: "bounce",
                                 random: true,
-                                speed: 6,
+                                speed: 7,
                                 straight: false
                             },
                             number: {
@@ -92,18 +92,24 @@ class NewParticles extends React.Component {
                                 value: 75
                             },
                             opacity: {
-                                value: 1
+                                value: 0.7
                             },
                             shape: {
-                                type: 'polygon'
+                                type: 'star'
                             },
                             size: {
-                                random: false,
-                                value: 5,
+                                random: true,
+                                value: 9,
+                                anim: {
+                                    enable: true,
+                                    speed: 40,
+                                    size_min: 40,
+                                    sync: true
+                                }
                                 // speed: 40
                             }
                         },
-                        detectRetina: false
+                        detectRetina: true
                     }} />
 
                 </div>

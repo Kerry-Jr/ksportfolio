@@ -1,16 +1,36 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class AboutList extends Component {
-  render() {
-    const languages = [{'name': 'html5'}, {'name': 'css3'}, {'name':'sass'}, {'name': 'javascript'},{'name': 'jquery'},{'name':'react'}, {'name':'redux'},{'name':'redux-form'},{'name':'Python (work in progress)'},{'name':'express.js'},{'name':'node.js'},{'name':'MySQL'},{'name': 'MongoDB'},{'name':'Firebase'},{'name':'Mongoose.js'}, {'name': 'Next.JS'}];
-    return (
-       <div>
+function AboutList() {
+
+    const languages = [
+       {'name': 'html5'},
+      {'name': 'css3'},
+      {'name':'sass'},
+      {'name': 'javascript'},
+      {'name': 'jquery'},
+      {'name':'react'},
+      {'name':'redux'},
+      {'name':'redux-form'},
+      {'name':'Python (work in progress)'},
+      {'name': 'Angular (work in progress)'},
+      {'name':'express.js'},
+      {'name':'node.js'},
+      {'name':'MySQL'},
+      {'name': 'MongoDB'},
+      {'name':'Firebase'},
+      {'name':'Mongoose.js'},
+      {'name': 'Next.JS'}
+      ];
+
+  return (
+      <div>
          {languages.map(function(language, idx){
-           return (<li key={idx}>{language.name}</li>)
+           return (<li key={idx}>{language.name}{language.icon}</li>)
          })}
        </div>
     );
-  }
+
+
 }
 
 export default AboutList;

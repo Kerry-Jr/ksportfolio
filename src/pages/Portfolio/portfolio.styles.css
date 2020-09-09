@@ -1,7 +1,7 @@
 .card-header {
     font-family: 'Inconsolata', monospace;
-    font-size: 3rem;
-    color: ghostwhite;
+    font-size: 4rem;
+    color: #a3a3a5;
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -13,8 +13,8 @@
 
 button {
     font-size: 2em;
-    background: #664ada;
-    color: #fff;
+    background: #408CAA;
+    color: #ffffff;
     border: none;
     padding: 0.85em 0.75em;
     margin: 1rem;
@@ -32,7 +32,7 @@ button:hover {
 }
 button::after {
     content: "";
-    background: #b62ad5;
+    background: #5a2ad5;
     position: absolute;
     z-index: -1;
     padding: 0.85em 0.75em;

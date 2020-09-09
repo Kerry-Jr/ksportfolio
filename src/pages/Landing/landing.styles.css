@@ -66,7 +66,8 @@ margin-top : 500px;
 
 .hero-title {
     font-size: 76px;
-    font-family: 'Inconsolata', monospace;
+    font-family: Lobster;
+    letter-spacing: 0.4rem;
 }
 
 .hero-decoration {
@@ -74,13 +75,32 @@ margin-top : 500px;
     font-size: 28px !important;
 }
 
-.enter-btn {
-    background-color: magenta !important;
+.enter-btn a {
+    background-color: #408CAA !important;
+    height: 25% !important;
+    width: 50% !important;
+    color: white !important;
+
+
 }
 
 .enter-btn:hover {
     border: none !important;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 5) !important;
-    background-color: mediumpurple !important;
+    background-color: #408CAA !important;
+    background-color: #408CAA !important;
     color: ghostwhite !important;
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+
+button::after {
+    content: "";
+     background: #408CAA !important;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: inline-block;
+
 }

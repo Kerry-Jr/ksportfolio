@@ -7,8 +7,8 @@
     height: 25rem;
     width: 50rem;
     position: relative;
-    background-color: ghostwhite;
-    opacity: 0.8;
+    background-color: #b7b7ba;
+    opacity: 0.7 !important;
     z-index: 1;
     border-radius: 3rem;
     padding: 2rem;
@@ -21,7 +21,7 @@
 .social-style {
     font-size: 10rem;
     color: black;
-    background-color: white;
+    background-color: #828287;
     border-radius: 2rem;
     margin-top: 4rem;
     box-shadow: 10px 10px 15px rgba(0,0,0,1);
@@ -31,8 +31,8 @@
 }
 
 .social-style:hover {
-    color: white;
-    background-color: cornflowerblue;
+    color: black;
+    background-color: #408CAA;
     opacity: 1;
     box-shadow: 10px 10px 15px rgba(0,0,0,1);
     transform: scale(1.5);
@@ -43,8 +43,9 @@
 .social-text {
     font-family: 'Inconsolata', monospace;
     margin-right: 1rem;
-    font-size: 24px;
+    font-size: 40px !important;
     text-align: center !important;
+    color: #1d0e0e;
 
 }
 
@@ -58,7 +59,7 @@
 
 .social-header {
     font-family: 'Inconsolata', monospace;
-    color: ghostwhite;
+    color: #828287;
     font-size: 7rem;
     text-align: center;
     margin-top: 24px;
