@@ -6,11 +6,11 @@
   height: 75px;
 }
 
-/*.col-md-12 {*/
-/*  padding-right: 0;*/
-/*  padding-left: 0;*/
+.col-md-12 {
+  padding-right: 0;
+  padding-left: 0;
 
-/*}*/
+}
 
 .nbar-name {
   margin-left: 7rem !important;
@@ -22,10 +22,8 @@
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 10px 10px 15px rgba(0,0,0,1);
-
-  /*background-color: #408CAA !important;*/
+  padding: 10px;
 }
-
 
 .nbar-name:hover {
   background-color: black;
@@ -40,14 +38,7 @@
 @media only screen and (max-width: 1281px) {
   .nbar-name {
     background-color: #408CAA;
+    height: 5rem;
 
   }
 }
-
-
-
-/*@media only screen and (max-width: 1281px) {*/
-/*    .navbar-expand {*/
-/*      flex-direction: row;*/
-/*    }*/
-/*}*/
