@@ -28,15 +28,19 @@ button {
 }
 button:hover {
     color: white;
+    transform: scale(1.25);
+    transition: 0.4s;
+    background-color: blueviolet;
 
 }
 button::after {
     content: "";
-    background: #5a2ad5;
+    /*background: #5a2ad5;*/
     position: absolute;
     z-index: -1;
     padding: 0.85em 0.75em;
     display: block;
+
 
 }
 button[class^="slide"]::after {

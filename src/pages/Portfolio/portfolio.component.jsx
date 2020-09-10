@@ -34,7 +34,7 @@ class Portfolio extends Component {
                 </div>
                     <div className='container btnMore'>
                       <Link to='/portfolio/moreprojects'>
-                        <button className="slide_from_left">...more projects</button>
+                        <button className="more-projects">...more projects</button>
                       </Link>
                     </div>
                 </div>

@@ -28,6 +28,9 @@
 .nbar-name:hover {
   background-color: black;
   color: ghostwhite !important;
+  transform: scale(1.5);
+  transition: 0.4s;
+  border: 1px solid white;
 }
 
 
