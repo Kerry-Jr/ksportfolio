@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Card from '../../components/Card/cards.component';
 import projects from '../../projects.json';
 import MyNavbar from '../../components/Navbar/navbar.component'
@@ -6,16 +6,16 @@ import './moreprojects.styles.css';
 
 class MoreProjects extends Component {
 
- componentDidMount() {
-   window.scrollTo(0,0);
- }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   state = {
     projects: projects
   };
 
   render() {
-    const moreProjectsArr = this.state.projects.slice(0,3);
+    const moreProjectsArr = this.state.projects.slice(0, 3);
     const extraProjects = moreProjectsArr.map((extraProject) =>
        <div className='col-sm-4 md-6 lg-10 offset-1' key={extraProject.id}>
          <Card
@@ -30,7 +30,7 @@ class MoreProjects extends Component {
     );
     return (
        <div className='container-fluid'>
-         <MyNavbar />
+         <MyNavbar/>
          <h1 className='extra-header'>some more to look @</h1>
          <div className='row more-fade'>
            {extraProjects}
@@ -39,4 +39,5 @@ class MoreProjects extends Component {
     )
   }
 }
+
 export default MoreProjects;
