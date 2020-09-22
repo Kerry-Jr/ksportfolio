@@ -21,7 +21,7 @@ margin-top : 500px;
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('https://blog.society6.com/app/uploads/2018/05/nicebleed-theglitchog-society6-keeper.gif');
-    opacity: 0.7;
+    opacity: 0.6;
     background-position: center;
     background-repeat: no-repeat;
     /*background-size: cover;*/
@@ -43,14 +43,16 @@ margin-top : 500px;
 }
 
 .hero-title {
-    font-size: 76px;
+    font-size: 74px;
     font-family: Lobster,sans-serif;
     letter-spacing: 0.4rem;
+    margin-top: 27rem;
 }
 
 .hero-decoration {
     font-family: 'Inconsolata', monospace;
-    font-size: 28px !important;
+    font-size: 40px !important;
+    padding: 20px;
 }
 
 .enter-btn a {
@@ -60,16 +62,13 @@ margin-top : 500px;
     color: white !important;
 }
 
-.landing-span {
-    color: black !important;
-}
 
 
 .enter-btn:hover {
     border: none !important;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 5) !important;
     background: #408CAA !important;
-
+    
     color: ghostwhite !important;
     transform: scale(1.5);
     transition: 0.4s;
@@ -85,7 +84,5 @@ button[class^='enter-btn']::after {
         padding: 0.85em 0.75em;
         display: inline-block;
 }
-
-
 
 
