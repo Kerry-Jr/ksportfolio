@@ -38,7 +38,7 @@ function About() {
              </div>
            </div>
            <div className='col-md-4 kerry'>
-             <h1 className='display-3 text-center about-header'>Languages</h1>
+             <h1 className='display-3 text-center about-header'>Technologies</h1>
              <span className='hobbies-text'>
               <AboutList/>
 

@@ -1,5 +1,5 @@
 .test, .kerry {
-    background-color: ghostwhite;
+    background-color: #badaf4;
     font-family: 'Inconsolata', monospace;
     color: black;
     word-wrap: break-word;
@@ -20,12 +20,14 @@
     margin-right: auto;
     width: 30rem;
     margin-bottom: 2rem;
-
 }
+
+
 
 .about-header {
     font-family: 'Inconsolata', monospace;
-    text-decoration: cornflowerblue underline;
+    text-decoration:  underline;
+    font-size: 3.5rem;
 }
 
 

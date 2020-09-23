@@ -25,7 +25,7 @@ function AboutList() {
   return (
       <div>
          {languages.map(function(language, idx){
-           return (<li key={idx}>{language.name}{language.icon}</li>)
+           return (<li key={idx}>{language.name}</li>)
          })}
        </div>
     );
