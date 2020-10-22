@@ -24,9 +24,7 @@ function AboutList() {
 
   return (
       <div>
-         {languages.map(function(language, idx){
-           return (<li key={idx}>{language.name}</li>)
-         })}
+         {languages.map((language, idx) => (<li key={idx}>{language.name}</li>))}
        </div>
     );
 
