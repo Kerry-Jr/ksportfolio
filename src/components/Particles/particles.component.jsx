@@ -1,24 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Particles from "react-particles-js";
 
 import './particles.style.css';
 
-class NewParticles extends React.Component {
+class NewParticles extends Component {
   render() {
     return (
        <div className='container fluid sCanvas'>
-         <div className='particlesBackground' style={{
-           position: "absolute",
-           top: 0,
-           left: 0,
-           width: "100%",
-           height: "100%",
-           opacity: "1"
-         }}>
+         <div className='particlesBackground'>
            <Particles id="particles-js" params={{
              background: {
                color: {
                  value: "#000000"
+
                }
              },
              fpsLimit: 144,
@@ -31,10 +25,7 @@ class NewParticles extends React.Component {
                  },
                  onHover: {
                    enable: true,
-                   mode: "grab",
-                   color: {
-                     value: "#909CBC"
-                   }
+                   mode: ['trail', 'grab']
                  },
                  resize: true
                },
@@ -44,7 +35,7 @@ class NewParticles extends React.Component {
                    duration: 2,
                    opacity: 0.6,
                    size: 10,
-                   speed: 3
+                   speed: 4
                  },
                  push: {
                    quantity: 4,
@@ -57,8 +48,16 @@ class NewParticles extends React.Component {
                  grab: {
                    distance: 250,
                    line_linked: {
-                     opacity: 1
+                     opacity: 0.7
                    }
+                 },
+                 trail: {
+                   delay: 0.019,
+                   quantity: 1,
+
+                 },
+                 remove: {
+                   particles_nb: 2
                  }
                }
              },
@@ -67,11 +66,11 @@ class NewParticles extends React.Component {
                  value: "#408CAA"
                },
                links: {
-                 color: "#FFFFFF",
-                 distance: 200,
-                 enable: false,
-                 opacity: 0.5,
-                 width: 8
+                 color: "#445aa8",
+                 distance: 50,
+                 enable: true,
+                 opacity: 1,
+                 width: 0.5
                },
                collisions: {
                  enable: true
@@ -79,39 +78,49 @@ class NewParticles extends React.Component {
                move: {
                  direction: "none",
                  enable: true,
-                 outMode: "bounce",
+                 outMode: "destroy",
                  random: true,
-                 speed: 7,
-                 straight: false
+                 speed: 5,
+                 straight: false,
+                 warp: true,
+                 noise: {
+                   enable: true,
+                   delay: {
+                     value: 10
+                   }
+                 },
+                 trail: {
+                   length: 5,
+                   enable: true
+                 }
                },
                number: {
                  density: {
                    enable: true,
-                   value_area: 800
+                   value_area: 2000
                  },
-                 value: 75
+                 value: 150
                },
                opacity: {
-                 value: 0.5
+                 value: 1
                },
                shape: {
-                 type: 'star'
+                 type: ["circle", "star"]
                },
                size: {
                  random: true,
-                 value: 5,
+                 value: 4,
                  anim: {
                    enable: true,
-                   speed: 40,
+                   speed: 10,
                    size_min: 40,
+                   size_max: 5000,
                    sync: true
-                 }
-                 // speed: 40
-               }
-             },
+                   // startValue: "min"
+                   // destroy: "max"
+                 }}},
              detectRetina: true
            }}/>
-
          </div>
        </div>
     )

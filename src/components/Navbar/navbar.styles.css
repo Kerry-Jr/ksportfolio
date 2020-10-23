@@ -1,5 +1,6 @@
 .mainNav {
   background-color: #408CAA !important;
+  opacity: 0.8;
   position: fixed !important;
   top: 0 !important;
   width: 100%;
