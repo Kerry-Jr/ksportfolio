@@ -5,7 +5,7 @@ import './contact.styles.css';
 
 function Contact() {
   return (
-     <div>
+     <div className="container-fluid">
        <MyNavbar/>
        <h1 className='social-header'>Please contact me @</h1>
        <div className='container social-platform contact-fade'>
