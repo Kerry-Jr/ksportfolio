@@ -3,7 +3,7 @@ import MyNavbar from "../../components/Navbar/navbar.component";
 import AboutList from "./about-list.component";
 import kerry_smith from "./../../assets/kerry-smith.jpg";
 import "./about.styles.css";
-import Popover from "../../containers/modal/popover.component";
+
 
 function About() {
   return (
@@ -47,7 +47,6 @@ function About() {
           <div className="col-md-4 kerry">
             <h1 className="display-3 text-center about-header">Technologies</h1>
             <span className="hobbies-text">
-              {/*<Popover/>*/}
               <AboutList />
               <br />
             </span>

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {BrowserRouter as Router} from "react-router-dom";
 import {Navbar, Nav} from 'react-bootstrap';
+import Popover from "../../containers/modal/popover.component";
 
 import './navbar.styles.css'
 
@@ -20,9 +21,7 @@ class Menu extends Component {
                      <Nav.Link href="/" className='nbar-name'>Home <i className="fa fa-home"></i></Nav.Link>
                      <Nav.Link href="/about" className='nbar-name'>About <i
                         className="fa fa-address-card"></i></Nav.Link>
-                     <Nav.Link
-                        href="https://github.com/Kerry-Jr/ksportfolio/raw/master/src/assets/kerrySmithResume2020.pdf"
-                        className='nbar-name'>My Resume <i className="fa fa-file"/></Nav.Link>
+                     <Popover/>
                      <Nav.Link href="/portfolio" className='nbar-name'>Projects <i
                         className="fa fa-file-archive"></i></Nav.Link>
                      <Nav.Link href="/contact" className='nbar-name'>Contact <i

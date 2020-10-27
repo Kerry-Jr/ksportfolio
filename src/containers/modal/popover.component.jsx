@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import {Modal, Button} from 'react-bootstrap';
+import SinglePage from "../../components/react-pdf/singlePage";
+import myResume from "./kpsResume.pdf"
 import './popover.style.css'
 
 
@@ -9,8 +11,8 @@ class Popover extends Component {
     isOpen: false
   };
 
-  openModal = () => this.setState({ isOpen: true });
-  closeModal = () => this.setState({ isOpen: false })
+  openModal = () => this.setState({isOpen: true});
+  closeModal = () => this.setState({isOpen: false})
 
 
   render() {
@@ -18,21 +20,24 @@ class Popover extends Component {
        <>
          <div className="modal-btn">
            <Button variant="primary" onClick={this.openModal}>My Resume</Button>
+
          </div>
-       <div>
-         <Modal show={this.state.isOpen} onHide={this.closeModal} animation={true} keyboard={true} size="xl">
-           <Modal.Header closeButton closeLabel="Close">
-             <Modal.Title className="modal-title">Kerry Smith's 2020 resume</Modal.Title>
-           </Modal.Header>
-           <Modal.Body className="modal-body">
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur dolores esse ex explicabo impedit ipsa molestiae nemo nulla odio pariatur, provident quisquam quo, repellat sapiente tenetur ullam vero voluptate. Architecto asperiores at, blanditiis doloremque, earum enim esse hic impedit, iste nisi perferendis quidem quo reiciendis. Eveniet molestias necessitatibus possimus.
-           </Modal.Body>
-           <Modal.Footer>
-             <Button variant="secondary" onClick={this.closeModal}>Close</Button>
-           </Modal.Footer>
-         </Modal>
-       </div>
-         </>
+         <div>
+           <Modal show={this.state.isOpen} onHide={this.closeModal} animation={true} keyboard={true} size="xl">
+             <Modal.Header closeButton closeLabel="Close">
+               <Modal.Title className="modal-title">Kerry's resume pdf</Modal.Title>
+             </Modal.Header>
+             <Modal.Body className="modal-body">
+               <SinglePage pdf={myResume}/>
+             </Modal.Body>
+             <Modal.Footer>
+               <Button variant="success"
+                       onClick={() => window.location.href = 'https://github.com/Kerry-Jr/ksportfolio/raw/master/src/assets/kerrySmithResume2020.pdf'}>Download</Button>
+               <Button variant="dark" onClick={this.closeModal}>Close</Button>
+             </Modal.Footer>
+           </Modal>
+         </div>
+       </>
     );
   }
 }

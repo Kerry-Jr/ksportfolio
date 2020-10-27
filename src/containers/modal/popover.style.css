@@ -1,3 +1,28 @@
-.modal-btn {
-    background-color: red;
+button.btn.btn-primary {
+    padding: 0;
+    margin: 0;
+    margin-left: 7rem !important;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    color: black !important;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    padding: 10px;
+    background-color: #408CAA !important;
 }
+
+button.btn.btn-primary:hover {
+    background-color: black !important;
+    color: ghostwhite !important;
+    transform: scale(1.25);
+    transition: 0.4s;
+    border: 1px solid white;
+}
+
+.modal-title {
+    font-family: Lobster !important;
+}
+
