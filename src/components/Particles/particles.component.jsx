@@ -15,7 +15,7 @@ class NewParticles extends Component {
 
                }
              },
-             fpsLimit: 144,
+             fpsLimit: 60,
              interactivity: {
                detectsOn: "window",
                events: {
@@ -82,16 +82,16 @@ class NewParticles extends Component {
                  random: true,
                  speed: 5,
                  straight: false,
-                 warp: true,
+                 warp: false,
                  noise: {
-                   enable: true,
+                   enable: false,
                    delay: {
                      value: 10
                    }
                  },
                  trail: {
                    length: 5,
-                   enable: true
+                   enable: false
                  }
                },
                number: {
@@ -99,7 +99,7 @@ class NewParticles extends Component {
                    enable: true,
                    value_area: 2000
                  },
-                 value: 150
+                 value: 100
                },
                opacity: {
                  value: 1
@@ -109,7 +109,7 @@ class NewParticles extends Component {
                },
                size: {
                  random: true,
-                 value: 4,
+                 value: 6,
                  anim: {
                    enable: true,
                    speed: 10,

@@ -1,5 +1,6 @@
 import React from "react";
 import landing from "../../assets/landing1.jpg";
+import { Button } from 'react-bootstrap'
 import "./landing.styles.css";
 
 function Landing() {
@@ -19,13 +20,16 @@ function Landing() {
             developer
           </p>
           <p className="landing-instruction">Click the background!</p>
-          <button
+          <Button
+             as={"label"}
+             variant="primary"
+             size="lg"
             type="button"
             className="enter-btn"
             onClick={() => (window.location.href = "/about")}
           >
             - ENTER -
-          </button>
+          </Button>
         </div>
       </div>
     </section>

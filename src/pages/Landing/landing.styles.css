@@ -51,6 +51,15 @@
   padding: 20px;
 }
 
+.enter-btn {
+  background-color: #408caa !important;
+  border: none;
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  color: black;
+}
+
+
 .enter-btn a {
   background-color: #408caa !important;
   height: 25% !important;
@@ -60,17 +69,19 @@
 
 .enter-btn:hover {
   border: none !important;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 5) !important;
-  background: #408caa !important;
+  box-shadow: 10px 10px 65px rgba(0, 0, 0, 5) !important;
+  background-color: black !important;
+
+
 
   color: ghostwhite !important;
-  transform: scale(1.5);
-  transition: 0.4s;
+  transform: scale(1.8);
+  transition: 500ms;
 }
 
 button[class^="enter-btn"]::after {
   content: "";
-  background: #408caa !important;
+  /*background: #408caa !important;*/
   position: absolute;
   z-index: -1;
   padding: 0.85em 0.75em;
