@@ -63,7 +63,7 @@ class NewParticles extends Component {
              },
              particles: {
                color: {
-                 value: "#408CAA"
+                 value: "random"
                },
                links: {
                  color: "#445aa8",
@@ -105,7 +105,7 @@ class NewParticles extends Component {
                  value: 1
                },
                shape: {
-                 type: ["circle", "star"]
+                 type: ["circle", "star", "triangle", "square"]
                },
                size: {
                  random: true,
