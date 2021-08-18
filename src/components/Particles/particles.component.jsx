@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Particles from "react-particles-js";
 
 import './particles.style.css';
 
-class NewParticles extends Component {
-  render() {
+const NewParticles = () => {
+  
     return (
        <div className='container fluid sCanvas'>
          <div className='particlesBackground'>
@@ -25,7 +25,8 @@ class NewParticles extends Component {
                  },
                  onHover: {
                    enable: true,
-                   mode: ['trail', 'grab']
+                   mode: 'grab'
+                  //  mode: ['trail', 'grab']
                  },
                  resize: true
                },
@@ -46,9 +47,9 @@ class NewParticles extends Component {
                    duration: 0.4
                  },
                  grab: {
-                   distance: 250,
+                   distance: 300,
                    line_linked: {
-                     opacity: 0.7
+                     opacity: 0.4
                    }
                  },
                  trail: {
@@ -63,7 +64,7 @@ class NewParticles extends Component {
              },
              particles: {
                color: {
-                 value: "random"
+                 value: "#39FF14"
                },
                links: {
                  color: "#445aa8",
@@ -99,13 +100,14 @@ class NewParticles extends Component {
                    enable: true,
                    value_area: 2000
                  },
-                 value: 100
+                 value: 75
                },
                opacity: {
                  value: 1
                },
                shape: {
-                 type: ["circle", "star", "triangle", "square"]
+                 type: "circle",
+                //  type: ["circle", "star", "triangle", "square"]
                },
                size: {
                  random: true,
@@ -125,6 +127,5 @@ class NewParticles extends Component {
        </div>
     )
   }
-}
 
 export default NewParticles;
