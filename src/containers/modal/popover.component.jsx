@@ -32,7 +32,7 @@ class Popover extends Component {
              </Modal.Body>
              <Modal.Footer>
                <Button variant="success"
-                       onClick={() => window.location.href = 'https://github.com/Kerry-Jr/ksportfolio/raw/master/src/assets/KerrySmith2021resume.pdf'}>Download</Button>
+                       onClick={() => window.location.href = 'https://github.com/Kerry-Jr/ksportfolio/raw/master/src/assets/KerrySmith2022resume.pdf'}>Download</Button>
                <Button variant="dark" onClick={this.closeModal}>Close</Button>
              </Modal.Footer>
            </Modal>
