@@ -11,7 +11,7 @@ class Portfolio extends Component {
   };
 
   render() {
-    const myProjectsArr = this.state.projects.slice(3, 7);
+    const myProjectsArr = this.state.projects;
     const showProjectsArr = myProjectsArr.map((project) =>
        <div className='col-sm-4 md-6 lg-10 offset-1' key={project.id}>
          <Card
@@ -32,11 +32,11 @@ class Portfolio extends Component {
            <div className='row'>
              {showProjectsArr}
            </div>
-           <div className='container btnMore'>
+           {/* <div className='container btnMore'>
              <Link to='/portfolio/moreprojects'>
                <button className="more-projects">...more projects</button>
              </Link>
-           </div>
+           </div> */}
          </div>
        </div>
     )

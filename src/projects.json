@@ -9,15 +9,6 @@
     "repository":  "//github.com/Kerry-Jr/03-javascript-passwordGen"
   },
   {
-    "id": 2,
-    "name": "Weather Dashboard",
-    "image": "https://kerry-jr.github.io/Homework2/Assets/Images/homework06.PNG",
-    "description": "Weather application that reports current and weekly forecasts.",
-    "technologies": "Technology:  HTML, CSS w/bootstrap, JavaScript, Moment.js, jQuery, OpenWeather API",
-    "liveLink": "//kerry-jr.github.io/weatherApp/",
-    "repository": "//github.com/Kerry-Jr/Homework06"
-  },
-  {
     "id": 3,
     "name": "Fitness Tracker App",
     "image": "https://github.com/Kerry-Jr/homework11/blob/master/assets/image/fitness.PNG?raw=true",
@@ -34,15 +25,6 @@
     "technologies": "Tech used:  HTML, CSS, JavaScript, React, Bootstrap, ESLint (AirBnB rules), Express, mySQL2, Node.js, and deployed with Heroku.",
     "liveLink": "//project02blog.herokuapp.com/",
     "repository": "//github.com/Kerry-Jr/Project02"
-  },
-  {
-    "id": 5,
-    "name": "Planet.COM",
-    "image": "https://github.com/Kerry-Jr/eventplannerProject03/raw/master/assets/ss/eventPage.png",
-    "description": "Sign in/ up , create events, share events via pin access code, share on messageboards, and invite all of your friends to join.",
-    "technologies": "Tech used: React, Redux, JWT authentication, Express.js, MongoDB, Node.js, ESLint (AirBnB rules), Semantic UI React, Mongoose, and deployed with Heroku.",
-    "liveLink": "//ucb-bootcamp-project3.herokuapp.com/",
-    "repository": "//github.com/jngo2013/Project03"
   },
   {
     "id": 6,

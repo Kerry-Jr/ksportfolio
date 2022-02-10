@@ -31,9 +31,6 @@ function Landing() {
             - ENTER -
           </Button>
           <div>
-          <span>
-            Note: Version 2 point Oh is coming in 2021... Thank you and check back very soon! 
-          </span>
         </div>
         </div>
       </div>
